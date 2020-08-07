@@ -1,6 +1,27 @@
-*{
+/* Brand Colors{
+    background-color: #fbe700;
+    background-color: rgba(255, 255, 255, .1);
+    background-color: white;
+} */
+
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {    
     font-family: 'Poppins', sans-serif;
+    color: #fbe700;
+    padding: .8rem;
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(251, 230, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../Images/man-1282232_1920.jpg);
+    background-size: cover;
+    background-position: center, top;
+    clip-path: polygon(0 0,100% 0,100% 80vh,0 100%);
 }
