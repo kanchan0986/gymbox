@@ -1,0 +1,60 @@
+.header {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url(../Images/man-1282232_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0,100% 0,100% 80vh,0 100%);
+    
+    
+    &__logo {
+        cursor: pointer;
+        height: 16vh;
+
+        &--box {
+            position: absolute;
+            top: .7vh;
+            left: 1vw;
+        }
+    }
+    
+    &__text--box {
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+
+.headline {
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    
+    &--head1 {
+        color: $color-1;
+        display: block;
+        font-weight: 700;
+        font-size: 8rem;
+        letter-spacing: .5rem;
+        line-height: 7rem;
+        text-shadow: .2rem .2rem .8rem rgba($color-4, .5);
+        animation-name: leftToRight;
+        animation-duration: 1s;
+    }
+    
+    &--head2 {
+        display: block;
+        font-weight: 500;
+        font-size: 2rem;
+        letter-spacing: .67rem;
+        line-height: 2rem;
+        text-shadow: 0rem .2rem .2rem rgba($color-4, .5);
+        color: $color-3;
+        animation-name: bottomToTop;
+        animation-duration: .8s;
+        animation-timing-function: ease-in;
+        margin-bottom: 2.5rem;
+    }
+}

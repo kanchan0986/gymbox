@@ -1,178 +1,157 @@
-/* Brand Colors{
-    background-color: #fbe700;
-    background-color: rgba(255, 255, 255, .1);
-    background-color: white;
-} */
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {    
-    font-family: 'Poppins', sans-serif;
-    padding: .8rem;
-}
-
-.header {
-    position: relative;
-    height: 100vh;
-    background-image: linear-gradient(to right bottom, rgba(251, 230, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../Images/man-1282232_1920.jpg);
-    background-size: cover;
-    background-position: center;
-    clip-path: polygon(0 0,100% 0,100% 80vh,0 100%);
-}
-
-#logo {
-    position: absolute;
-    top: .7vh;
-    left: 1vw;
-}
-
-.logo_img {
-    cursor: pointer;
-    height: 16vh;
-}
-
-#head_box {
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-#headline {
-    text-transform: uppercase;
-    backface-visibility: hidden;
-}
-
-.head1 {
-    color: #fbe700;
-    display: block;
-    font-weight: 700;
-    font-size: 80px;
-    letter-spacing: 5px;
-    line-height: 70px;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    animation-name: leftToRight;
-    animation-duration: 1s;
-}
-
-.head2 {
-    display: block;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 6.6px;
-    line-height: 20px;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
-    color: white;
-    animation-name: bottomToTop;
-    animation-duration: .8s;
-    animation-timing-function: ease-in;
-    margin-bottom: 25px;
-}
-
 @keyframes leftToRight {
-    0% {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-    70%{
-        transform: translateX(5%);
-    }
-    80% {
-        transform: translateX(-5%);
-    }
-    90% {
-        transform: translateX(5%);
-    }
-    100%{
-        opacity: 100%;
-        transform: translateX(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  70% {
+    transform: translateX(5%);
+  }
+  80% {
+    transform: translateX(-5%);
+  }
+  90% {
+    transform: translateX(5%);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
 }
 
 @keyframes bottomToTop {
-    0% {
-        opacity: 0;
-        transform: translateY(800%);
-    }
-    100%{
-        opacity: 100%;
-        transform: translateY(0);
-    }
-}
-
-
-.button_txt:link, .button_txt:visited {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 3px;
-    background-color: white;
-    color: rgb(73, 73, 63);
-    border-radius: 50px;
-    padding: 2px 25px;
-    transition: all .1s;
-    animation-name: bottomToTop;
-    animation-duration: .3s;
-    animation-timing-function: ease-out;
-    animation-delay: 1s;
-    animation-fill-mode: backwards;
-}
-
-.button_txt:hover {
-    background-color: #fbe700;
-    color: white;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-}
-
-.button_txt:active {
-    transform: translateY(2px);
-    backface-visibility: hidden;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
-}
-
-.button_txt::after {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    border-radius: 50px;
-    z-index: -1;
-    transition: all .3s;
-}
-
-.button_txt:hover::after {
-    transform: scaleX(1.5) scaleY(2.5);
-    background-color: #fbe700;
+  0% {
     opacity: 0;
+    transform: translateY(800%);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
 }
 
+.button--txt:link, .button--txt:visited {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: .3rem;
+  background-color: #ffffff;
+  color: #49493f;
+  border-radius: 5rem;
+  padding: .2rem 2.5rem;
+  transition: all .1s;
+  animation-name: bottomToTop;
+  animation-duration: .3s;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
 
+.button--txt:hover {
+  background-color: #fbe700;
+  color: #ffffff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+}
 
+.button--txt:hover::after {
+  transform: scaleX(1.5) scaleY(2.5);
+  background-color: #fbe700;
+  opacity: 0;
+}
 
+.button--txt:active {
+  transform: translateY(0.2rem);
+  backface-visibility: hidden;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+}
 
+.button--txt::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 5rem;
+  z-index: -1;
+  transition: all .3s;
+}
 
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../Images/man-1282232_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+}
 
+.header__logo {
+  cursor: pointer;
+  height: 16vh;
+}
 
+.header__logo--box {
+  position: absolute;
+  top: .7vh;
+  left: 1vw;
+}
 
+.header__text--box {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
+.headline {
+  text-transform: uppercase;
+  backface-visibility: hidden;
+}
 
+.headline--head1 {
+  color: #fbe700;
+  display: block;
+  font-weight: 700;
+  font-size: 8rem;
+  letter-spacing: .5rem;
+  line-height: 7rem;
+  text-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 0, 0.5);
+  animation-name: leftToRight;
+  animation-duration: 1s;
+}
 
+.headline--head2 {
+  display: block;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: .67rem;
+  line-height: 2rem;
+  text-shadow: 0rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  animation-name: bottomToTop;
+  animation-duration: .8s;
+  animation-timing-function: ease-in;
+  margin-bottom: 2.5rem;
+}
 
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 
+html {
+  font-size: 62.5%;
+}
 
-
-
+body {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  padding: .8rem;
+}

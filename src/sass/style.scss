@@ -1,0 +1,55 @@
+@import "util/variables";
+@import "util/functions";
+@import "util/mixins";
+
+@import "components/animations";
+@import "components/buttons";
+@import "components/headers";
+
+@import "pages/home";
+
+
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;  
+    font-family: 'Poppins', sans-serif;
+    padding: .8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
