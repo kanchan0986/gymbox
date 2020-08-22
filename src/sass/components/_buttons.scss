@@ -5,7 +5,7 @@
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 500;
-        font-size: 2rem;
+        font-size: $font-size-small;
         letter-spacing: .3rem;
         background-color: $color-3;
         color: $color-5;
@@ -51,4 +51,47 @@
         transition: all .3s;
     }    
 
+    &--learn1 {
+        @include btn($color-1, $color-2, $color-2, $color-3, $font-size-small, .3rem, 1.5rem);
+        border-radius: 50rem;
+    }
+    
+    &--learn2 {
+        @include btn($color-2, $color-3, $color-1, $color-3, $font-size-extra-small, .3rem, 1.5rem);    
+    }
+
+    &--view {
+        @include btn($color-2, $color-3, $color-1, $color-3, $font-size-small, .3rem, 1.5rem);
+        border-radius: 50rem;
+    }
+
+    &--next {
+        @include btn($color-1, $color-5, $color-2, $color-3, $font-size-small, .5rem, 5rem);
+        border-radius: 50rem;
+        margin-top: 3rem;
+        margin-left: 15rem;
+        cursor: pointer;
+    }
+
+    &--submit {
+        @include btn($color-1, $color-5, $color-7, $color-3, $font-size-small, .5rem, 3rem);
+        border-radius: 50rem;
+        // margin-top: 3rem;
+        margin-right: 5rem;
+        cursor: pointer;
+    }
+
+    &--clear {
+        @include btn($color-1, $color-5, $color-8, $color-3, $font-size-small, .5rem, 3rem);
+        border-radius: 50rem;
+        // margin-top: 3rem;
+        // margin-left: 5rem;
+        cursor: pointer;
+    }
+
 }
+
+
+
+
+

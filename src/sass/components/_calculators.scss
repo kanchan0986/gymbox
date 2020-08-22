@@ -1,0 +1,141 @@
+.calculator {
+    background-color: rgba($color-6, .5);
+    box-shadow: 0 .2rem .5rem rgba($color-4, .5);
+    padding: 3rem 5rem 4rem 5rem;
+    height: 54rem;
+    border-radius: .3rem;
+    
+    &:hover {
+        background-color: rgba($color-6, .8);
+        box-shadow: 0 .2rem 1rem rgba($color-4, .8);
+
+    }
+
+    &__head {
+        font-size: $font-size-ultra-medium;
+        text-align: center;
+        margin-bottom: 3rem;
+        color: $color-8;
+    }
+
+    &__input {
+        font-size: $font-size-extra-small;
+        margin-bottom: 1rem;
+        
+        &--input {
+            padding: .8rem 1.5rem .65rem .5rem;
+            width: 100%;
+            display: block;
+            outline: none;
+            font-size: inherit;
+            font-family: inherit;
+            border: none;
+            border-radius: .2rem;
+            border-bottom: .15rem solid transparent;
+            transition: all .1s;
+
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+              }
+
+            &:hover {
+                box-shadow: 0 .1rem .5rem rgba($color-4, .5);
+            }
+
+            &:focus {
+                box-shadow: 0 .1rem .5rem rgba($color-4, .5);
+
+                &:invalid {
+                    border-bottom: .15rem solid $color-2;
+                    animation: shake .3s ease-in;
+                    transition: all .3s ease-in;
+                }
+                
+                &:valid {
+                    border-bottom: .15rem solid $color-7;
+                }
+            }
+
+            &:placeholder-shown + .calculator__input--label {
+                opacity: 0;
+                visibility: hidden;
+                transform: translateY(-2.8rem);
+            }
+        }
+        
+        &--label {
+            display: inline-block;
+            margin-left: .55rem;
+            transition: all ease-in .3s;
+
+            &--sub {
+                margin-bottom: .5rem;
+            }
+        }
+    }
+    
+    &__radio {
+        margin-bottom: 3rem;
+
+        &--input {
+            display: none;
+
+            
+            &-custom {
+                display: inline-block;
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 50rem;
+                border: .3rem solid $color-8;
+                position: absolute;
+    
+    
+                &::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: .29rem;
+                    left: .29rem;
+                    width: 70%;
+                    height: 70%;
+                    border-radius: 50rem;
+                    background-image: radial-gradient( $color-1, $color-2 90%);
+                    transform: scale(0);
+                    transition: all .3s;
+                }
+    
+            }
+
+        }
+
+        &--label {
+            font-size: $font-size-extra-small;
+            margin-left: 3.5rem;
+            margin-right: 3.5rem;
+            cursor: pointer;
+            position: relative;
+
+            &:hover {
+                color: $color-2;
+            }
+        }
+
+        &--input:checked + &--input-custom::after {
+            transform: scale(1);
+        }
+
+    }
+
+    &__button {
+        width: 100%;
+
+        &--bmi {
+            margin-top: 14.7rem;
+        }
+
+        &--calorie {
+            margin-top: 5rem;
+        }
+    }
+
+}

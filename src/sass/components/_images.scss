@@ -1,0 +1,47 @@
+.galary {
+    position: relative;
+
+    &__image {
+        width: 50%;
+        box-shadow: 0 1rem 2rem rgba($color-4, .5);
+        position: absolute;
+        border-radius: .5rem;
+        transition: all .2s;
+
+        &--image1 {
+            transform: scaleX(-1);
+            left: 0rem;
+            top: -1rem;
+
+            &:hover {
+                transform: scaleX(-1.2) scaleY(1.2);
+                @extend %hover-image;
+            }
+            
+        }
+        
+        &--image2 {
+            right: 0rem;
+            top: 5rem;
+
+            &:hover{
+                transform: scaleX(1.2) scaleY(1.2);
+                @extend %hover-image;
+                
+            }
+        }
+        
+        &--image3 {
+            left: 25%;
+            top: 15.6rem;
+            
+            &:hover{
+                transform: scaleX(1.2) scaleY(1.2);
+                @extend %hover-image;
+                
+            }
+        }
+    }
+
+    
+}

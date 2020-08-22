@@ -1,12 +1,22 @@
 @import "util/variables";
+@import "util/extends";
 @import "util/functions";
 @import "util/mixins";
 
 @import "components/animations";
 @import "components/buttons";
+@import "components/calculators";
+@import "components/cards";
+@import "components/footers";
+@import "components/forms";
+@import "components/grid";
 @import "components/headers";
+@import "components/images";
+@import "components/testimonials";
+@import "components/utility";
+@import "components/videos";
 
-@import "pages/home";
+@import "pages/about";
 
 
 
@@ -25,6 +35,8 @@ body {
     font-family: 'Poppins', sans-serif;
     padding: .8rem;
 }
+
+
 
 
 

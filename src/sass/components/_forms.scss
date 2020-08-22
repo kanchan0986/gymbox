@@ -1,0 +1,126 @@
+.join-form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    height: 100%;
+    width: 57%;
+    padding: 3rem 0rem 3rem 10rem;
+    // background-color: violet;
+
+    &__input {
+        font-size: $font-size-extra-small;
+        position: relative;
+
+        
+        &--name, &--email, &--mobile {
+            display: block;
+            padding: .8rem 1.5rem .65rem .5rem;
+            width: 85%;
+            font-size: inherit;
+            outline: none;
+            border: none;
+            font-family: inherit;
+            border-radius: .2rem;
+            border-bottom: .15rem solid transparent;
+            transition: all .1s;            
+            
+            &::-webkit-input-placeholder {
+                font-size: inherit;
+                font-family: inherit;
+            }
+
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+              }
+
+            &:hover {
+                box-shadow: 0 0 .3rem rgba($color-4, .5);
+            }
+
+            &:focus {
+                box-shadow: 0 0 .3rem rgba($color-4, .5);
+                border-bottom: .15rem solid transparent;
+                
+                &:invalid {
+                    border-bottom: .15rem solid $color-2;
+                    animation: shake .3s ease-in;
+                    transition: all .3s ease-in;
+                }
+                
+                &:valid {
+                    border-bottom: .15rem solid $color-7;
+                }
+            }
+
+            &:placeholder-shown + .join-form__input--label {
+                opacity: 0;
+                visibility: hidden;
+                transform: translateY(-3.1rem);
+            }
+
+            
+        }
+
+        &--label {
+            margin-left: .5rem;
+            display: inline-block;
+            transition: all .4s;
+            margin-right: 2rem;
+        }
+
+        &--radio {
+            display: none;
+
+            
+            &-custom {
+                display: inline-block;
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 50rem;
+                border: .3rem solid $color-8;
+                position: absolute;
+    
+    
+                &::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: .29rem;
+                    left: .29rem;
+                    width: 70%;
+                    height: 70%;
+                    border-radius: 50rem;
+                    background-image: radial-gradient( $color-1, $color-2 90%);
+                    transform: scale(0);
+                    transition: all .3s;
+                }
+    
+            }
+        }
+    
+
+
+
+        .radio-label {
+            margin-left: 3.5rem;
+            cursor: pointer;
+            position: relative;
+
+            &:hover {
+                color: $color-2;
+            }
+        }
+
+        &--radio:checked + &--radio-custom::after {
+            transform: scale(1);
+        }
+
+
+    }
+
+
+    
+
+}
+

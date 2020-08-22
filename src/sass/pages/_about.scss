@@ -1,0 +1,88 @@
+.about {
+    background-color: $color-6;
+    padding: 16rem 20rem 35rem 20rem;
+    margin-top: -20vh;
+}
+
+// .features {
+//     background-color: $color-3;
+//     padding: 12rem 20rem 20rem 20rem;
+//     background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url("../Images/cathy-pham-3jAN9InapQI-unsplash\ \(1\).jpg");
+//     background-position: top;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     transform: skewY(-8deg);
+//     margin-top: -10.6rem;
+
+//     & > * {
+//         transform: skewY(8deg);
+//     }
+// }
+
+.features {
+    background-color: $color-3;
+    padding: 20rem 20rem 80rem 20rem;
+    background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url("../Images/cathy-pham-3jAN9InapQI-unsplash\ \(1\).jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -24.6rem;
+    clip-path: polygon(0% 15%, 100% 0%, 100% 55%, 0% 70%);    
+}
+
+.packages {
+    background-color: $color-6;
+    margin-top: -72rem;
+    padding: 23rem 20rem 30rem 20rem;
+    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0 100%);
+}
+
+.testimonials {
+    position: relative;
+    margin-top: -25rem;
+    padding: 23rem 20rem 20rem 20rem;
+}
+
+.tools {
+    background-color: $color-3;
+    padding: 18rem 20rem 80rem 20rem;
+    background-image: linear-gradient(to right bottom, rgba($color-8, .5), rgba($color-7, .5)), url("../Images/brooke-lark-jUPOXXRNdcA-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 162%;
+    margin-top: -24.6rem;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 55%, 0% 70%);
+}
+
+.join {
+    // position: absolute;
+    z-index: -2;
+    margin-top: -74rem;
+    padding: 27rem 20rem 27rem 20rem;
+    background-image: linear-gradient(to right bottom, $color-1, $color-2);
+    clip-path: polygon(0 23%, 100% 0%, 100% 76%, 0 100%);
+    
+    &__box {
+        position: relative;
+        padding: 25rem 0;
+        background-image: linear-gradient(105deg, rgba($color-3, .8)60%, rgba($color-3, .8)60%, transparent 50%), url("../Images/people-2604149_1920.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0 .4rem .8rem rgba($color-4, .3);
+    }
+}
+
+.footer {
+    // position: relative;
+    background-color: $color-5;
+    padding: 42rem 20rem 5rem 20rem;
+    margin-top: -25rem;
+    z-index: -3;
+    
+    &__copyright {
+        color: $color-3;
+        font-size: $font-size-extra-small;
+        margin-left: 6rem;
+        
+    }
+}

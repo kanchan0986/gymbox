@@ -1,0 +1,108 @@
+.section-list {
+
+    
+    &__first {
+        color: $color-3;
+        text-decoration: none;
+        font-size: $font-size-small;
+        transition: all .1s;
+        font-weight: 600;
+        transition: all .1s;
+
+        
+        &:hover {
+            letter-spacing: .2rem;
+            color: $color-1;
+            font-weight: 700;
+        }
+        
+    }
+    
+    &__second {
+        @extend .section-list__first;
+    }
+}
+
+.information {
+    border-left: .2rem solid $color-1;
+    padding-left: 10rem;
+    
+    &__logo-box {
+                
+        &--logo {
+            width: 35%;
+            filter: drop-shadow(.1rem .1rem .3rem rgba(black, .5));
+        }
+    }
+    
+    &__address {
+        margin-bottom: 2rem;
+
+        &--cname {
+            font-size: $font-size-ultra-medium;
+            color: $color-1;
+            text-align: center;
+        }
+        
+        &--caddress {
+            font-size: $font-size-small;
+            color: $color-3;
+            text-align: center;
+        }
+
+        &__numbers {
+            color: $color-3;
+            font-size: $font-size-extra-small;
+            font-weight: 400;
+
+            &__first {
+                float: left;
+                margin-left: 2rem;
+
+                &--n1 {
+                    display: block;
+                }
+
+                &--n2 {
+                    color: $color-1;
+                }
+            }
+
+            &__second {
+                &--n1 {
+                    display: block;
+                }
+
+                &--n2 {
+                    color: $color-1;
+                }
+            }
+
+
+
+        }
+        
+    }
+
+    &__social {
+
+
+        &__images {
+
+            &:not(:last-child){
+                margin-right: 2rem;
+            }
+            
+            &--icons {
+                width: 10%;
+                transition: all .1s;
+                
+                &:hover {
+                    transform: scale(1.2);
+                    filter: grayscale(100%) drop-shadow(.1rem .1rem .3rem rgba(black, .8));
+                }
+            }
+            
+        }
+    }
+}

@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="../src/css/style.css">
     <title>GYMBOX</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="header__logo--box">
             <img src="./Images/Logo.png" alt="logo" class="header__logo">
         </div>
@@ -17,9 +18,393 @@
                 <span class="headline--head1">Gym Box</span>
                 <span class="headline--head2">Ultimate Gym Experience</span>
             </h1>
-            <a href="#" class="button--txt">Explore</a>
-        </div>               
+            <a href="javascript:void()" class="button--txt" type="button">Explore</a>
+        </div>
     </header>
+    
+    
+    
+    <section class="about">
+        <div class="about__header--box util-ta-center util-mb-8">
+            <h2 class="headline__about" id="about">About Us</h2>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <h3 class="headline__about--head1 util-mb-1">Lorem ipsum dolor</h3>
+                <p class="headline__about--head1--sub1">Sit amet consectetur adipisicing elit. Obcaecati maxime totam at ipsam eos quae, optio, quam laudantium deleniti aliquid pariatur adipisci qui laborum assumenda quasi rem voluptatem eum animi.</p>
+                
+                <h3 class="headline__about--head1 util-mb-1">Lorem ipsum dolor</h3>
+                <p class="headline__about--head1--sub1">Sit amet consectetur adipisicing elit. Obcaecati maxime totam at ipsam eos quae, optio, quam laudantium deleniti aliquid pariatur adipisci qui laborum assumenda quasi rem voluptatem eum animi.</p>
+                
+                <a href="javascript:void()" class="button--txt--learn1">Learn More..</a>
+            </div>
+            <div class="col-1-of-2">
+                <div class="galary">
+                    <img src="./Images/sven-mieke-EuwD039Svug-unsplash.jpg" alt="image1" class="galary__image galary__image--image1">
+                    <img src="./Images/anastase-maragos-7P5AOnw6cWQ-unsplash.jpg" alt="img2" class="galary__image galary__image--image2">
+                    <img src="./Images/humphrey-muleba-LOA2mTj1vhc-unsplash.jpg" alt="img3" class="galary__image galary__image--image3">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="util-ta-center util-mb-8">
+            <h2 class="headline__feature" id="features">What we do</h2>
+        </div>            
+        <div class="row">
+            <div class="col-1-of-4 util">
+                <div class="features__headline util-ta-center">
+                    <i class="fa fa-check-circle"></i>
+                    <h3 class="features__headline__head1">Yoga Sessions</h3>
+                    <p class="features__headline__head1--sub1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. adipisci qui laborum assumenda quasi rem voluptatem Similique, cumipsum dolor sit amet consectetur adipisicing</p>
+                    <a href="javascript:void()" class="button--txt--learn2">Learn More..</a>
+                </div>
+            </div>          
+            <div class="col-1-of-4">
+                <div class="features__headline util-ta-center">
+                    <i class="fa fa-check-circle"></i>
+                    <h3 class="features__headline__head1">Cardio Training</h3>
+                    <p class="features__headline__head1--sub1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. adipisci qui laborum assumenda quasi rem voluptatem Similique, cumipsum dolor sit amet consectetur adipisicing</p>
+                    <a href="javascript:void()" class="button--txt--learn2">Learn More..</a>
+                </div>
+            </div>          
+            <div class="col-1-of-4">
+                <div class="features__headline util-ta-center">
+                    <i class="fa fa-check-circle"></i>
+                    <h3 class="features__headline__head1">Weight Training</h3>
+                    <p class="features__headline__head1--sub1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. adipisci qui laborum assumenda quasi rem voluptatem Similique, cumipsum dolor sit amet consectetur adipisicing</p>
+                    <a href="javascript:void()" class="button--txt--learn2">Learn More..</a>
+                </div>
+            </div>          
+            <div class="col-1-of-4">
+                <div class="features__headline util-ta-center">
+                    <i class="fa fa-check-circle"></i>
+                    <h3 class="features__headline__head1">Zumba Dancing</h3>
+                    <p class="features__headline__head1--sub1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. adipisci qui laborum assumenda quasi rem voluptatem Similique, cumipsum dolor sit amet consectetur adipisicing</p>
+                    <a href="javascript:void()" class="button--txt--learn2">Learn More..</a>
+                </div>
+            </div>          
+        </div>
+        
+    </section>
+    <section class="packages">
+        <div class="util-ta-center util-mb-6">
+            <h2 class="headline__packages" id="packages">Find your best package</h2>
+        </div>
+        <div class="row">
+            <div class="col-1-of-3">
+                <div class="packages__details util-ta-center">
+                    <div class="packages__details__sides packages__details__sides--front">
+                        <div class="packages__details__images packages__details__images--image1">
+                            &nbsp;
+                        </div>
+                        <h3 class="packages__details__headline">Gold</h3>
+                        <ul class="packages__details__list">
+                            <li class="packages__details__list--listitems packages__details__list--listitems--subhead packages__details__list--listitems1--item1 " >Monthly</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems1--item2"><i class="fa fa-check"></i>Cardio</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems1--item3"><i class="fa fa-check"></i>Weight Training</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems1--item4"><i class="fa fa-check"></i>Air Conditioned</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems1--item5"><i class="fa fa-check"></i>Parking Space</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems1--item6"><i class="fa fa-check"></i>Workout Routine</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems1--item7"><i class="fa fa-check"></i>Diet Chart</li>
+                        </ul>
+                    </div>
+                    <div class="packages__details__sides packages__details__sides--back">
+                        <h3 class="packages__details__price packages__details__price--first">$75</h3>
+                        <a href="javascript:void()" class="button--txt--cards" type="button">Join</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1-of-3">
+                <div class="packages__details util-ta-center">
+                   <div class="packages__details__sides packages__details__sides--front">
+                        <div class="packages__details__images packages__details__images--image2">
+                        &nbsp;
+                        </div>
+                        <h3 class="packages__details__headline">Platinum</h3>
+                        <ul class="packages__details__list">
+                            <li class="packages__details__list--listitems packages__details__list--listitems--subhead packages__details__list--listitems2--item1">Quaterly</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item2"><i class="fa fa-check"></i>Yoga</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item3"><i class="fa fa-check"></i>Cardio</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item4"><i class="fa fa-check"></i>Weight Training</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item5"><i class="fa fa-check"></i>Locker Facility</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item6"><i class="fa fa-check"></i>Air Conditioned</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item7"><i class="fa fa-check"></i>Parking Space</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item8"><i class="fa fa-check"></i>Workout Routine</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item9"><i class="fa fa-check"></i>Diet Chart</li>
+                        </ul>
+                   </div>
+                   <div class="packages__details__sides packages__details__sides--back">
+                        <h3 class="packages__details__price packages__details__price--second">$225</h3>
+                        <a href="javascript:void()" class="button--txt--cards" type="button">Join</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1-of-3">
+                <div class="packages__details util-ta-center">
+                   <div class="packages__details__sides packages__details__sides--front">
+                        <div class="packages__details__images packages__details__images--image3">
+                            &nbsp;
+                        </div>
+                        <h3 class="packages__details__headline">Diamond</h3>
+                        <ul class="packages__details__list">
+                            <li class="packages__details__list--listitems packages__details__list--listitems--subhead packages__details__list--listitems2--item1">Annually</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item2"><i class="fa fa-check"></i>Yoga</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item3"><i class="fa fa-check"></i>Cardio</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item4"><i class="fa fa-check"></i>Zumba</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item5"><i class="fa fa-check"></i>Weight Training</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item6"><i class="fa fa-check"></i>Locker Facility</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item7"><i class="fa fa-check"></i>Air Conditioned</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item8"><i class="fa fa-check"></i>Parking Space</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item9"><i class="fa fa-check"></i>Workout Routine</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item10"><i class="fa fa-check"></i>Diet Chart</li>
+                            <li class="packages__details__list--listitems packages__details__list--listitems2--item11"><i class="fa fa-check"></i>Personal Trainer</li>
+                        </ul>
+                   </div>
+                   <div class="packages__details__sides packages__details__sides--back">
+                        <h3 class="packages__details__price packages__details__price--third">$900</h3>
+                        <a href="javascript:void()" class="button--txt--cards" type="button">Join</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="testimonials-video">
+            <video class="testimonials-video__content" autoplay muted loop>
+                <source src="./Images/coverr-girl-trains-in-the-gym-1565532876111.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="util-ta-center util-mb-6">
+            <h2 class="headline__testimonials" id="testimonials">What our clients say</h2>
+        </div>
+        <div class="row">
+            <div class="testimonials-box">
+                <figure class="testimonials-box__circle">
+                    <img src="./Images/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="first-img" class="testimonials-box__images testimonials-box__images--image1">
+                    <figcaption class="testimonials-box__caption util-ta-center">Annie Gracie</figcaption>
+                </figure>
+                <h3 class="testimonials-box__head testimonials-box__head">Annie Gracie</h3>
+                <p class="testimonials-box__head testimonials-box__head--body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi natus enim, sequi illo porro dolorum iusto laborum molestias vitae. Reprehenderit aliqu assumenda cumque facere elit. Animi natus, vitae. Reprehenderit aliquid voluptatibusrepellendus.
+                </p>
+            </div>
+            <div class="testimonials-box">
+                <figure class="testimonials-box__circle">
+                    <img src="./Images/zheka-boychenko-vPkTWyTgk8E-unsplash.jpg" alt="first-img" class="testimonials-box__images testimonials-box__images--image2">
+                    <figcaption class="testimonials-box__caption util-ta-center">Mark Williams</figcaption>
+                </figure>
+                <h3 class="testimonials-box__head testimonials-box__head">Mark Williams</h3>
+                <p class="testimonials-box__head testimonials-box__head--body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi natus enim, sequi illo porro dolorum iusto laborum molestias vitae. Reprehenderit aliqu assumenda cumque facere elit. Animi natus, vitae. Reprehenderit aliquid voluptatibusrepellendus.
+                </p>
+            </div>
+        </div>
+        <div class="util-ta-center at">
+            <a href="javascript:void()" class="button--txt--view">View More..</a>
+        </div>
+    </section>
+    <section class="tools">
+        <div class="util-ta-center util-mb-6">
+            <h2 class="headline__tools" id="tools">Healthy Weight Tools</h2>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="calculator">
+                    <form action="#">
+                        <h3 class="calculator__head">BMI Calculator</h3>
+                        <div class="calculator__input">
+                            <input type="number" id="age__bmi" class="calculator__input--input" placeholder="Enter Your Age" required>
+                            <label for="age__bmi" class="calculator__input--label">Enter Your Age</label>
+                        </div>
+                        <div class="calculator__input">
+                            <input type="number" id="height__bmi" class="calculator__input--input" placeholder="Enter Your Height In Centimeters" required>
+                            <label for="height__bmi" class="calculator__input--label">Enter Your Height In Centimeters</label>
+                        </div>
+                        <div class="calculator__input">
+                            <input type="number" id="weight__bmi" class="calculator__input--input" placeholder="Enter Your Weight In Kilograms" required>
+                            <label for="weight__bmi" class="calculator__input--label">Enter Your Weight In Kilograms</label>
+                        </div>
+                        <div class="calculator__radio">
+                            <input type="radio" id="male__bmi" class="calculator__radio--input" name="gender__bmi" required>
+                            <span class="calculator__radio--input-custom"></span>
+                            <label for="male__bmi" class="calculator__radio--label">Male</label>
+                            <input type="radio" id="female__bmi" class="calculator__radio--input" name="gender__bmi" required>
+                            <span class="calculator__radio--input-custom"></span>
+                            <label for="female__bmi" class="calculator__radio--label">Female</label>
+                        </div>
+                        <div class="calculator__button calculator__button--bmi util-ta-center">
+                            <button type="submit" class="button--txt--submit button--txt--submit">Submit</button>
+                            <button type="reset" class="button--txt--clear button--txt--clear">Clear</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <div class="calculator">
+                    <form action="#">
+                        <h3 class="calculator__head">Calorie Calculator</h3>
+                        <div class="calculator__input">
+                            <input type="number" id="age__calorie" class="calculator__input--input" placeholder="Enter Your Age" required>
+                            <label for="age__calorie" class="calculator__input--label">Enter Your Age</label>
+                        </div>
+                        <div class="calculator__input">
+                            <input type="number" id="height__calorie" class="calculator__input--input" placeholder="Enter Your Height In Centimeters" required>
+                            <label for="height__calorie" class="calculator__input--label">Enter Your Height In Centimeters</label>
+                        </div>
+                        <div class="calculator__input">
+                            <input type="number" id="weight__calorie" class="calculator__input--input" placeholder="Enter Your Weight In Kilograms" required>
+                            <label for="weight__calorie" class="calculator__input--label">Enter Your Weight In Kilograms</label>
+                        </div>
+                        <div class="calculator__radio">
+                            <input type="radio" id="male__calorie" class="calculator__radio--input" name="gender__calorie" required>
+                            <span class="calculator__radio--input-custom"></span>
+                            <label for="male__calorie" class="calculator__radio--label">Male</label>
+                            <input type="radio" id="female__calorie" class="calculator__radio--input" name="gender__calorie" required>
+                            <span class="calculator__radio--input-custom"></span>
+                            <label for="female__calorie" class="calculator__radio--label">Female</label>
+                        </div>
+                        <div class="calculator__input">
+                            <label for="activity__calorie" class="calculator__input--label calculator__input--label--sub">Activity Level</label>
+                            <select name="activity" id="activity__calorie" class="calculator__input--input">
+                                <option value="blank">&nbsp;</option>
+                                <option value="sedentary">Sedentary: little or no exercise</option>
+                                <option value="light">Light: exercise 1-3 times/week</option>
+                                <option value="moderate">Moderate: exercise 4-5 times/week</option>
+                                <option value="active">Active: daily exercise or intense exercise 3-4 times/week</option>
+                                <option value="very-active">Very Active: intense exercise 6-7 times/week</option>
+                                <option value="extra-active">Extra Active: very intense exercise daily or physical job</option>
+                            </select>
+                        </div>
+                        <div class="calculator__button calculator__button--calorie  util-ta-center">
+                            <button type="submit" class="button--txt--submit">Submit</button>
+                            <button type="reset" class="button--txt--clear">Clear</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="join">
+        <div class="row">
+            <div class="join__box" id="join">
+                <form action="#" class="join-form">
+                    <h2 class="headline__testimonials">Join Us Now!</h2>
+                    <div class="join-form__input util-mb-1">
+                        <input type="text" class="join-form__input--name" id="name" placeholder="Full Name" required>
+                        <label for="name" class="join-form__input--label">Full Name</label>
+                    </div>
+                    <div class="join-form__input util-mb-1">
+                        <input type="email" class="join-form__input--email" id="email" placeholder="Email address" required>
+                        <label for="email" class="join-form__input--label">Email address</label>
+                    </div>
+                    <div class="join-form__input util-mb-1">
+                        <input type="number" class="join-form__input--mobile" id="mobile" placeholder="Mobile number" required>
+                        <label for="mobile" class="join-form__input--label">Mobile number</label>
+                    </div>
+                    <div class="join-form__input">
+                        <input type="radio" id="radio1" class="join-form__input--radio" name="gender">
+                        <span class="join-form__input--radio-custom"></span>
+                        <label for="radio1" class="join-form__input--label radio-label">Male</label>
+                        <input type="radio" id="radio2" class="join-form__input--radio" name="gender">
+                        <span class="join-form__input--radio-custom"></span>
+                        <label for="radio2" class="join-form__input--label radio-label">Female</label>
+                    </div>
+                    <button type="submit" id="next" class="button--txt--next util-ta-center">Next</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="row">
+            <div class="col-1-of-4">
+                <div class="section-list util-mt-15">
+                    <h3><a href="#home" class="section-list__first section-list__first--home">Home</a></h3>
+                    <h3><a href="#about" class="section-list__first section-list__first--about">About Us</a></h3>
+                    <h3><a href="#features" class="section-list__first section-list__first--feature">Features</a></h3>
+                    <h3><a href="#packages" class="section-list__first section-list__first--package">Packages</a></h3>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <div class="section-list util-mt-15">
+                    <h3><a href="#tools" class="section-list__second section-list__second--tool">Tools</a></h3>
+                    <h3><a href="#testimonials" class="section-list__second section-list__second--testimonial">Testimonials</a></h3>
+                    <h3><a href="#join" class="section-list__second section-list__second--join">Join Us</a></h3>
+                </div>
+            </div>
+            <div class="col-2-of-4">
+                <div class="information util-ta-center">
+                    <div class="information__logo-box">
+                        <a href="#home"><img src="./Images/Logo.png" alt="logo" class="information__logo-box--logo"></a>
+                    </div>
+                    <div class="information__address">
+                        <h2 class="information__address--cname">Gymbox pvt. ltd.</h2>
+                        <p class="information__address--caddress">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis ea adipisci! Nobis</p>
+                        <div class="information__address__numbers">
+                            <div class="information__address__numbers__first">
+                                <span class="information__address__numbers__first--n1"><span class="information__address__numbers__first--n2">Telephone:</span> 0326-2230772</span>
+                                <span class="information__address__numbers__first--n1"><span class="information__address__numbers__first--n2">Mobile:</span> +91 8569745698</span>
+                            </div>
+                            <div class="information__address__numbers__second">
+                                <span class="information__address__numbers__second--n1"><span class="information__address__numbers__second--n2">E-Mail:</span> xyz@email.com</span>
+                                <span class="information__address__numbers__second--n1"><span class="information__address__numbers__second--n2">Website:</span> boxgym.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="information__social">
+                        <a href="javascript:void()" class="information__social__images"><img src="./Images/Facebook.png" alt="facbook" class="information__social__images--icons"></a>
+                        <a href="javascript:void()" class="information__social__images"><img src="./Images/twitter.png" alt="twitter" class="information__social__images--icons"></a>_
+                        <a href="javascript:void()" class="information__social__images"><img src="./Images/Instagram.png" alt="instagram" class="information__social__images--icons"></a>
+                        <a href="javascript:void()" class="information__social__images"><img src="./Images/Watsapp.png" alt="watsapp" class="information__social__images--icons"></a>
+                        <a href="javascript:void()" class="information__social__images"><img src="./Images/Pintrest.png" alt="pinterest" class="information__social__images--icons"></a>
+                        <a href="javascript:void()" class="information__social__images"><img src="./Images/You-tube.png" alt="youtube" class="information__social__images--icons"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="util-ta-center">
+            <span class="footer__copyright">&copy; Gymbox pvt. ltd.</span>
+        </div>
+    </section>
+    
+    <!-- <section class="grid-test">
+        <div class="row">
+            <div class="col-1-of-2">col-1-of-2</div>
+            <div class="col-1-of-2">col-1-of-2</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-3">col-1-of-3</div>
+            <div class="col-1-of-3">col-1-of-3</div>
+            <div class="col-1-of-3">col-1-of-3</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-3">col-1-of-3</div>
+            <div class="col-2-of-3">col-2-of-3</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-2-of-4">col-2-of-4</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-3-of-4">col-3-of-4</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-6">col-1-of-6</div>
+            <div class="col-1-of-6">col-1-of-6</div>
+            <div class="col-1-of-6">col-1-of-6</div>
+            <div class="col-1-of-6">col-1-of-6</div>
+            <div class="col-1-of-6">col-1-of-6</div>
+            <div class="col-1-of-6">col-1-of-6</div>
+        </div>
+    </section> -->
 
     <script src="./JavaScript/app.js"></script>
 </body>
