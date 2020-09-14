@@ -14,10 +14,35 @@
     margin-bottom: 4rem;
 }
 
+.util-mb-2 {
+    margin-bottom: 2rem;
+}
+
 .util-mb-1 {
     margin-bottom: 1rem;
 }
 
 .util-mt-15 {
     margin-top: 15rem;
+}
+
+.util-mt-5 {
+    margin-top: 5rem;
+}
+.util-mt-3 {
+    margin-top: 3rem;
+}
+
+.alert {
+    background-color: $color-8;
+    color: $color-3;
+    width: 85%;
+    font-size: $font-size-extra-small;
+    padding: .2rem;
+    display: inline-block;
+    text-align: center;
+    opacity: 80%;
+    position: absolute;
+    top: -110%;
+    display: none;
 }

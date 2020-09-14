@@ -1,0 +1,120 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba($color-4, .95);
+    z-index: 50;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+    
+    &:target {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &:target &__box {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+        transition: all ease-in .3s .1s;
+    }
+
+    &:target &__join {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+        transition: all ease-in .3s .1s;
+    }
+    
+    &__box {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        background-color: $color-3;
+        border-radius: .5rem;
+        overflow: hidden;
+        box-shadow: 0 0 .5rem rgba($color-4, .5);
+        width: 70%;
+        z-index: 51;
+        display: table;
+        opacity: 0;
+        transition: all ease-in .3s;
+    }
+
+    &__images {
+        width: 40%;
+        display: table-cell;
+        vertical-align: middle;
+        
+        &--image {
+            display: block;
+            width: 100%;
+        }
+    }
+    
+    &__close {
+        position: absolute;
+        top: 0;
+        right: 2rem;
+        font-size: $font-size-medium;
+        text-decoration: none;
+        color: $color-5;
+        transition: all ease-in .1s;
+        cursor: pointer;
+
+        &--packages {
+            margin-right: -46rem;
+        }
+
+        &:hover {
+            transform: rotate(270deg);
+            color: $color-8;
+        }
+    }
+
+    &__contents {
+        width: 60%;
+        display: table-cell;
+        vertical-align: middle;        
+    }
+
+
+    &__body {
+        margin-top: -7rem;
+        margin-bottom: 2rem;
+        font-size: $font-size-extra-small;
+        text-align: justify;
+        padding: 3rem;
+        column-count: 2;
+        column-gap: 5rem;
+        column-rule: .1rem solid $color-4;
+        hyphens: auto;
+    }
+
+    &__join {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        width: 70%;
+        opacity: 0;
+        transition: all ease-in .3s;
+    }
+    
+}
+
+#modal-form-1 {
+    // display: block;
+    position: absolute;
+    z-index: 501;
+}
+
+#modal-form-2 {
+    // display: none;
+    position: absolute;
+    z-index: 500;
+}
+
+

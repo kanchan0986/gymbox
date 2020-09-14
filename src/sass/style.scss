@@ -3,6 +3,7 @@
 @import "util/functions";
 @import "util/mixins";
 
+@import "components/anchors";
 @import "components/animations";
 @import "components/buttons";
 @import "components/calculators";
@@ -12,6 +13,8 @@
 @import "components/grid";
 @import "components/headers";
 @import "components/images";
+@import "components/modals";
+@import "components/navigation";
 @import "components/testimonials";
 @import "components/utility";
 @import "components/videos";
@@ -28,13 +31,18 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
+    position: relative;
     box-sizing: border-box;  
     font-family: 'Poppins', sans-serif;
     padding: .8rem;
 }
+
+
+
 
 
 

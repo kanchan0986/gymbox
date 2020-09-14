@@ -1,0 +1,151 @@
+.nav {
+    position: relative;
+
+    &__checkbox {
+        display: none;
+    }
+
+    &__button {
+        position: relative;
+        width: 6rem;
+        height: 6rem;
+        background-color: $color-3;
+        position: fixed;
+        top: 5rem;
+        right: 5rem;
+        border-radius: 50rem;
+        box-shadow: 0 0 .5rem rgba($color-4, .5);
+        cursor: pointer;
+        z-index: 32;
+    }
+
+    &__checkbox:checked ~ &__background {
+        transform: scale(80);
+    }
+
+    &__checkbox:checked ~ &__navbar {
+        opacity: 1;
+        width: 100%;
+    }
+
+    &__button:hover &__icon::before {
+        top: -1.01rem;
+    }
+
+    &__button:hover &__icon::after {
+        top: 1.03rem;
+    }
+
+    &__checkbox:checked + &__button &__icon {
+        background-color: transparent;
+    }
+
+    &__checkbox:checked + &__button &__icon::before {
+        transform: rotate(135deg);
+        top: 0;
+    }
+
+    &__checkbox:checked + &__button &__icon::after {
+        transform: rotate(-135deg);
+        top: 0;
+    }
+
+    &__checkbox:checked:hover + &__button &__icon::before {
+        transform: scale(1.1);
+    }
+
+    &__checkbox:checked:hover + &__button &__icon::after {
+        transform: scale(1.1);
+    }
+
+    &__icon {
+        position: absolute;
+        top: 46%;
+        left: 27%;
+        background-color: $color-8;
+        width: 3rem;
+        height: .3rem;
+        
+
+        &::before, &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            background-color: $color-8;
+            width: 3rem;
+            height: .3rem;
+            transition: all ease-in .1s;
+        }
+        
+        &::before {
+            top: -.8rem;
+            transition: all ease-in .1s;
+        }
+        
+        &::after {
+            top: .8rem;
+            transition: all ease-in .1s;
+        }
+        
+    }
+
+    &__background {
+        width: 5rem;
+        height: 5rem;
+        background-image: radial-gradient($color-1, $color-8 40%);
+        position: fixed;
+        opacity: 95%;
+        top: 5.5rem;
+        right: 5.5rem;
+        border-radius: 50rem;
+        transition: transform .6s ease-in;
+        z-index: 28;
+    }
+
+    &__navbar {
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        opacity: 0;
+        width: 0;
+        transition: all ease-in .6s;
+        z-index: 29;
+    }
+    
+    
+    
+    &__list {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        list-style: none;
+        text-align: center;
+        z-index: 30;
+        
+        
+    }
+    
+    &__items {        
+        text-decoration: none;
+        font-size: $font-size-medium;
+    }
+    
+    &__item {
+        color: $color-3;
+        padding: 0 2rem;
+        border-radius: 50rem;
+        background-image: linear-gradient(135deg, transparent 0%, transparent 50%, $color-3 50%);
+        background-size: 210%;
+        transition: all .3s;
+        
+        
+        &:hover {
+            color: $color-8;
+            background-position: 100%;
+            transform: translateX(1rem);
+        }
+    }
+
+}

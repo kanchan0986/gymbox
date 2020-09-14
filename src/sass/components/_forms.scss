@@ -6,14 +6,13 @@
     height: 100%;
     width: 57%;
     padding: 3rem 0rem 3rem 10rem;
-    // background-color: violet;
 
     &__input {
         font-size: $font-size-extra-small;
         position: relative;
 
         
-        &--name, &--email, &--mobile {
+        &--name, &--email, &--mobile, &--age {
             display: block;
             padding: .8rem 1.5rem .65rem .5rem;
             width: 85%;
@@ -69,58 +68,86 @@
             margin-right: 2rem;
         }
 
-        &--radio {
-            display: none;
+        &--span {
+            margin-right: 1.5rem;
+            display: inline-block;
+            font-size: $font-size-extra-small;
+        }
 
+        &--input-age {
+            padding: .8rem .5rem .65rem .5rem;
+            width: 24%
+        }
+
+        &--joining-date {
+            padding: .8rem .5rem .65rem .5rem;
+            width: 46%;
+            display: inline-block;
             
-            &-custom {
+            
+            &--label {
                 display: inline-block;
-                width: 2.5rem;
-                height: 2.5rem;
-                border-radius: 50rem;
-                border: .3rem solid $color-8;
-                position: absolute;
-    
-    
-                &::after {
-                    content: "";
-                    display: block;
-                    position: absolute;
-                    top: .29rem;
-                    left: .29rem;
-                    width: 70%;
-                    height: 70%;
-                    border-radius: 50rem;
-                    background-image: radial-gradient( $color-1, $color-2 90%);
-                    transform: scale(0);
-                    transition: all .3s;
-                }
-    
             }
         }
-    
-
-
-
-        .radio-label {
-            margin-left: 3.5rem;
-            cursor: pointer;
-            position: relative;
-
-            &:hover {
-                color: $color-2;
-            }
+        
+        &--shift-timing {
+            padding: .8rem .5rem .65rem .5rem;
+            width: 62%;
+            display: inline-block;
         }
 
-        &--radio:checked + &--radio-custom::after {
-            transform: scale(1);
+        &--select-package {
+            padding: .8rem .5rem .65rem .5rem;
+            width: 56.5%;
+            display: inline-block;
         }
 
 
     }
 
 
+    &--radio1 {
+        margin-top: -6.5rem;
+        margin-left: 14rem;
+    }
+
+    .condition {
+        font-size: 1.1rem;
+        color: $color-8;
+    }
+
+    
     
 
 }
+
+
+
+.joining {
+    position: relative;
+    margin-top: -75rem;
+    padding: 75rem 20rem 27rem 20rem;
+    background-image: linear-gradient(to right bottom, $color-1, $color-2);
+    clip-path: polygon(0 23%, 100% 0%, 100% 76%, 0 100%);
+
+
+    &__join {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        transition: all ease-in .3s;
+    }
+}
+
+
+#join-form-1 {
+    display: block;
+}
+
+#join-form-2 {
+    display: none;
+}
+
 

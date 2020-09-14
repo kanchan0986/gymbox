@@ -1,15 +1,35 @@
 .calculator {
-    background-color: rgba($color-6, .5);
-    box-shadow: 0 .2rem .5rem rgba($color-4, .5);
-    padding: 3rem 5rem 4rem 5rem;
-    height: 54rem;
-    border-radius: .3rem;
+    perspective: 200rem;
     
-    &:hover {
-        background-color: rgba($color-6, .8);
-        box-shadow: 0 .2rem 1rem rgba($color-4, .8);
+    
+    &__sides {
+        background-color: rgba($color-6, .5);
+        box-shadow: 0 .2rem .5rem rgba($color-4, .5);
+        padding: 3rem 5rem 4rem 5rem;
+        height: 54.5rem;
+        border-radius: .3rem;
+        position: relative;
+        backface-visibility: hidden;
+        transition: transform .4s ease-in;
+        
+        &--back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform: rotateY(180deg);            
+        }
 
+        &:hover {
+            background-color: rgba($color-6, .8);
+            box-shadow: 0 .2rem 1rem rgba($color-4, .8);
+        }        
+        
     }
+
+
+
 
     &__head {
         font-size: $font-size-ultra-medium;
@@ -25,7 +45,7 @@
         &--input {
             padding: .8rem 1.5rem .65rem .5rem;
             width: 100%;
-            display: block;
+            // display: block;
             outline: none;
             font-size: inherit;
             font-family: inherit;
@@ -45,15 +65,15 @@
             &:focus {
                 box-shadow: 0 .1rem .5rem rgba($color-4, .5);
 
-                &:invalid {
-                    border-bottom: .15rem solid $color-2;
-                    animation: shake .3s ease-in;
-                    transition: all .3s ease-in;
-                }
+                // &:invalid {
+                //     border-bottom: .15rem solid $color-2;
+                //     animation: shake .3s ease-in;
+                //     transition: all .3s ease-in;
+                // }
                 
-                &:valid {
-                    border-bottom: .15rem solid $color-7;
-                }
+                // &:valid {
+                //     border-bottom: .15rem solid $color-7;
+                // }
             }
 
             &:placeholder-shown + .calculator__input--label {
@@ -72,70 +92,233 @@
                 margin-bottom: .5rem;
             }
         }
+
+        &--toggle{
+            display: inline-block;
+            width: 79%;
+        }
     }
-    
-    &__radio {
-        margin-bottom: 3rem;
 
-        &--input {
-            display: none;
+    &__toggle {
+        display: inline-block;
+        width: 20%;
+        padding: 1.1rem 0;
+        float: right;
+        border: none;
+        border-radius: .2rem;
+        background-color: $color-1;
+        color: $color-5;
+        box-shadow: 0 .2rem .3rem rgba($color-4, .4);
+        outline: none;
+        transition: box-shadow .05s ease-in, transform .05s ease-in;
 
-            
-            &-custom {
-                display: inline-block;
-                width: 2.5rem;
-                height: 2.5rem;
-                border-radius: 50rem;
-                border: .3rem solid $color-8;
-                position: absolute;
-    
-    
-                &::after {
-                    content: "";
-                    display: block;
-                    position: absolute;
-                    top: .29rem;
-                    left: .29rem;
-                    width: 70%;
-                    height: 70%;
-                    border-radius: 50rem;
-                    background-image: radial-gradient( $color-1, $color-2 90%);
-                    transform: scale(0);
-                    transition: all .3s;
-                }
-    
-            }
-
-        }
-
-        &--label {
-            font-size: $font-size-extra-small;
-            margin-left: 3.5rem;
-            margin-right: 3.5rem;
+        &:hover {
+            background-color: $color-8;
+            color: $color-3;
             cursor: pointer;
-            position: relative;
-
-            &:hover {
-                color: $color-2;
-            }
+            box-shadow: 0 .2rem .6rem rgba($color-4, .7);
+            transform: translateY(-.1rem);
         }
 
-        &--input:checked + &--input-custom::after {
-            transform: scale(1);
+        &:active{
+            box-shadow: 0 .2rem .3rem rgba($color-4, .4);
+            transform: translateY(.1rem);
         }
-
     }
 
     &__button {
         width: 100%;
 
         &--bmi {
-            margin-top: 14.7rem;
+            margin-top: 12.7rem;
         }
 
         &--calorie {
-            margin-top: 5rem;
+            margin-top: 2rem;
+
+            &--submit {
+                margin-top: 1rem;
+            }
+        }
+
+
+        &--submit1 {
+            &:hover {
+                background-color: $color-8;
+            }
+        }
+        &--submit2 {
+            &:hover {
+                background-color: $color-7;
+            }
         }
     }
 
+    &__alert {
+        display: block;
+        visibility: hidden;
+        background-color: $color-8;
+        color: $color-3;
+        font-size: $font-size-extra-small;
+        opacity: 80%;
+
+        &--bmi {
+            margin-top: -1rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+
+    &__result__title {      
+
+
+        &-bmi {
+            position: absolute;
+            top: 16%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: $font-size-medium;
+            font-weight: 400;
+            color: $color-8;
+            text-shadow: 0 .2rem .5rem rgba($color-4, .5);
+            
+        }
+
+        &-bmr {
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: $font-size-medium;
+            font-weight: 400;
+            color: $color-8;
+            text-shadow: 0 .2rem .5rem rgba($color-4, .5);
+            
+        }
+    }
+
+
+    &__result {
+        position: absolute;
+        top: 27.8%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: $font-size-extra-large;
+        font-weight: 400;
+        color: $color-8;
+        text-shadow: 0 .2rem .5rem rgba($color-4, .5);
+        margin-bottom: 3rem;
+
+        &--bmr {
+            position: absolute;
+            top: 76.5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: $font-size-extra-large;
+            font-weight: 400;
+            color: $color-8;
+            text-shadow: 0 .2rem .5rem rgba($color-4, .5);
+            margin-bottom: 3rem;
+        }
+
+        &--unit {
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: $font-size-small;
+            font-weight: 400;
+            color: $color-8;
+            text-shadow: 0 .2rem .5rem rgba($color-4, .5);
+            margin-bottom: 3rem;
+        }
+
+    }
+
+    &__caption {
+        position: absolute;
+        top: 39%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: $font-size-small;
+        font-weight: 400;
+        color: $color-3;
+        background-color: $color-8;
+        padding: .1rem 2rem;
+        text-shadow: 0 .2rem .5rem rgba($color-4, .5);
+        margin-bottom: 3rem;
+    }
+    
+    &__sug {
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: $font-size-small;
+        font-weight: 400;
+        color: $color-4;
+        margin-bottom: 3rem;
+        text-align: center;
+        line-height: 2rem;
+        text-shadow: 0 0rem .1rem rgba($color-4, .8);
+    }
+
+}
+
+
+.calorie-table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    border: .1rem solid $color-8;
+    
+    &__head {
+        font-size: $font-size-ultra-medium;
+        color: $color-3;
+    }
+    
+    &__row {
+        // border: .1rem solid $color-8;
+        background-color: rgba($color-8, .3);
+        
+        &:hover {
+            background-color: rgba($color-8, .35);
+        }
+        
+        &_sub-head {
+            background-color: rgba($color-8, .8);
+            color: $color-3;
+        }
+    }
+    
+    &__sub-head {
+        font-size: $font-size-ultra-small;
+        color: $color-8;
+        text-align: left;
+        padding: .5rem .3rem;
+        
+        &_heading {
+            font-size: $font-size-ultra-small;
+            text-align: center;
+            padding: .8rem .5rem;
+            color: $color-3;
+            letter-spacing: .05rem;
+        }
+    }
+
+    &__sub-body {
+        font-size: $font-size-ultra-small;
+        color: $color-5;
+        font-weight: 300;
+        display: inline-block;
+        letter-spacing: .05rem;
+    }
+    
+    &__val {
+        font-size: $font-size-ultra-small;
+        padding: 0 .3rem;
+        text-align: center;
+    }
 }

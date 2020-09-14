@@ -1,23 +1,12 @@
+.navigation {
+    position: relative;
+}
+
 .about {
     background-color: $color-6;
     padding: 16rem 20rem 35rem 20rem;
     margin-top: -20vh;
 }
-
-// .features {
-//     background-color: $color-3;
-//     padding: 12rem 20rem 20rem 20rem;
-//     background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url("../Images/cathy-pham-3jAN9InapQI-unsplash\ \(1\).jpg");
-//     background-position: top;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     transform: skewY(-8deg);
-//     margin-top: -10.6rem;
-
-//     & > * {
-//         transform: skewY(8deg);
-//     }
-// }
 
 .features {
     background-color: $color-3;
@@ -55,8 +44,6 @@
 }
 
 .join {
-    // position: absolute;
-    z-index: -2;
     margin-top: -74rem;
     padding: 27rem 20rem 27rem 20rem;
     background-image: linear-gradient(to right bottom, $color-1, $color-2);
@@ -70,10 +57,10 @@
         background-repeat: no-repeat;
         box-shadow: 0 .4rem .8rem rgba($color-4, .3);
     }
+
 }
 
 .footer {
-    // position: relative;
     background-color: $color-5;
     padding: 42rem 20rem 5rem 20rem;
     margin-top: -25rem;
@@ -86,3 +73,6 @@
         
     }
 }
+
+
+

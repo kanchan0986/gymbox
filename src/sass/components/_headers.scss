@@ -97,4 +97,7 @@
     @include headline-style($color-7, $color-1);
 }
 
+.headline__modal {
+    @include headline-style($color-1, $color-2);
+}
 
