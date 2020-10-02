@@ -4,6 +4,11 @@
     padding: 2rem 0 3rem 0;
     transition: all .1s;
     
+    
+    @include responsive(tab_pot){
+        padding: 3rem 2rem 4rem 2rem;
+    }
+    
     &__head1 {
         color: $color-2;
         font-size: $font-size-small;
@@ -44,7 +49,6 @@
         box-shadow: 0 1rem 2rem rgba($color-4, .6);
         height: 54rem;
         transition: all ease-in .4s;
-
         
         &--back {
             position: absolute;
@@ -171,6 +175,108 @@
         color: $color-3;
         text-shadow: 0 .2rem .5rem rgba($color-4, .5);
         margin-bottom: 3rem;
+    }
+
+
+
+
+
+
+    @include responsive(tab_pot){
+        
+        box-shadow: 0 1rem 2rem rgba($color-4, .6);
+        background-color: $color-3;
+
+        &__sides {
+            box-shadow: none;
+            height: 18rem;
+            position: relative;
+            top: 0;
+            left: 0;
+            
+            &--front {
+                height: 54rem;
+            }
+            
+            &--back {
+                position: relative;
+                clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+                padding-top: 2rem;         
+                transform: rotateY(0deg);
+                
+                &-1 {
+                    margin-top: -13rem;
+                }
+
+                &-2 {
+                    margin-top: -8.5rem;
+                }
+
+                &-3 {
+                    margin-top: -2.5rem;
+                }
+                
+                .button--txt--cards {
+                    &:link, &:visited {
+                        display: block;                    
+                    }
+                }
+                
+            }
+        }
+        
+
+        &:hover &__sides--front {
+            transform: rotateY(0deg);
+        }
+
+            
+        .button--txt--cards {
+            &:link, &:visited {
+                display: inline-block;
+                text-decoration: none;
+                font-size: 2rem;
+                background-color: $color-3;
+                font-weight: 600;
+                border-radius: 50rem;
+                padding: .5rem 4rem;
+                color: $color-5;
+                box-shadow: 0 .2rem .5rem rgba($color-4, .5);
+                transition: all ease-in .1s;
+                backface-visibility: hidden;
+                animation: bottomToTop .4s ease-in .1s backwards;
+                margin-top: -2rem;
+            }
+        }
+    
+        &__price {
+            font-size: $font-size-large;
+            margin-bottom: 2rem;
+        }       
+
+
+    }
+
+
+    @include responsive(mob_lan){
+        &__price {
+            font-size: $font-size-large;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    @include responsive(mob_pot){
+        &__price {
+            font-size: $font-size-large;
+            margin-bottom: 1rem;
+        }
+    }
+
+    @include responsive(mob_min){
+        &__price {
+            font-size: $font-size-large;
+            margin-bottom: .5rem;
+        }
     }
 
 }

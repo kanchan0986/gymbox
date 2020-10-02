@@ -17,10 +17,22 @@
         box-shadow: 0 0 .5rem rgba($color-4, .5);
         cursor: pointer;
         z-index: 32;
+
+
+
+        @include responsive(mob_pot){
+            width: 7rem;
+            height: 7rem;
+        }
+    
+        @include responsive(mob_min){
+            width: 8rem;
+            height: 8rem;
+        }
     }
 
     &__checkbox:checked ~ &__background {
-        transform: scale(80);
+        transform: scale(150);
     }
 
     &__checkbox:checked ~ &__navbar {

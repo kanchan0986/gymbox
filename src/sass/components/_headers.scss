@@ -7,15 +7,54 @@
     background-position: center;
     clip-path: polygon(0 0,100% 0,100% 80vh,0 100%);
     
+    @include responsive(tab_pot){
+        clip-path: polygon(0 0,100% 0,100% 85vh,0 100%);
+        
+    }
+    
+    @include responsive(mob_lan){
+        clip-path: polygon(0 0,100% 0,100% 85vh,0 94.4%);
+    }
+    
+    @include responsive(mob_pot){
+        clip-path: polygon(0 0,100% 0,100% 85vh,0 94.4%);
+    }
+    
+    @include responsive(mob_min){
+        clip-path: polygon(0 0,100% 0,100% 85vh,0 93.7%);
+    }
     
     &__logo {
         cursor: pointer;
         height: 16vh;
 
+        @include responsive(mob_lan){
+            height: 13vh;
+        }
+
+        @include responsive(mob_pot){
+            height: 12vh;
+        }
+
+        @include responsive(mob_min){
+            height: 11vh;
+        }
+
+        @include responsive(big_scr){
+            height: 25vh;
+        }
+
         &--box {
             position: absolute;
             top: .7vh;
             left: 1vw;
+    
+            @include responsive(mob_min){
+                position: absolute;
+                top: 25%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
         }
     }
     
@@ -25,7 +64,14 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+
+
+
+        @include responsive(mob_min){
+            top: 37%;
+        }
     }
+
 }
 
 
@@ -43,6 +89,27 @@
         text-shadow: .2rem .2rem .8rem rgba($color-4, .5);
         animation-name: leftToRight;
         animation-duration: 1s;
+
+
+        @include responsive(tab_pot){
+            font-size: 7.8rem;
+            letter-spacing: .3rem;
+        }
+
+        @include responsive(mob_lan){
+            font-size: 7.7rem;
+            letter-spacing: 0;
+            line-height: 7.5rem;
+        }
+
+        @include responsive(mob_pot){
+            line-height: 8.3rem;
+        }
+
+        @include responsive(mob_min){
+            display: none;
+        }
+
     }
     
     &--head2 {
@@ -57,6 +124,26 @@
         animation-duration: .8s;
         animation-timing-function: ease-in;
         margin-bottom: 2.5rem;
+
+
+        @include responsive(tab_pot){
+            font-size: 1.8rem;
+        }
+
+        @include responsive(mob_lan){
+            font-size: 2.2rem;
+            letter-spacing: 0.25rem;
+        }
+
+        @include responsive(mob_pot){
+            font-size: 2.8rem;
+            letter-spacing: 0.05rem;
+        }
+
+        @include responsive(mob_min){
+            display: none;
+        }
+
     }
 
 }
@@ -89,7 +176,6 @@
 
 .headline__testimonials {
     @include headline-style($color-1, $color-2);
-    margin-left: 7rem;
     margin-bottom: 2rem;
 }
 
@@ -99,5 +185,9 @@
 
 .headline__modal {
     @include headline-style($color-1, $color-2);
+    margin-top: 3.5rem;
+    font-size: 3rem;
 }
+
+
 

@@ -12,6 +12,20 @@
         backface-visibility: hidden;
         transition: transform .4s ease-in;
         
+        
+        
+        @include responsive(tab_lan){
+            height: 54.5rem;
+        }
+
+        @include responsive(mob_pot){
+            height: 62.5rem;
+        }
+
+        @include responsive(mob_min){
+            height: 68.5rem;
+        }
+        
         &--back {
             position: absolute;
             top: 0;
@@ -64,16 +78,6 @@
 
             &:focus {
                 box-shadow: 0 .1rem .5rem rgba($color-4, .5);
-
-                // &:invalid {
-                //     border-bottom: .15rem solid $color-2;
-                //     animation: shake .3s ease-in;
-                //     transition: all .3s ease-in;
-                // }
-                
-                // &:valid {
-                //     border-bottom: .15rem solid $color-7;
-                // }
             }
 
             &:placeholder-shown + .calculator__input--label {
@@ -87,6 +91,19 @@
             display: inline-block;
             margin-left: .55rem;
             transition: all ease-in .3s;
+
+
+            @include responsive(tab_lan){
+                font-size: 1.2rem;
+            }
+
+            @include responsive(mob_lan){
+                font-size: 1.4rem;
+            }
+
+            @include responsive(mob_min){
+                font-size: 4.5px;
+            }
 
             &--sub {
                 margin-bottom: .5rem;
@@ -112,6 +129,13 @@
         outline: none;
         transition: box-shadow .05s ease-in, transform .05s ease-in;
 
+
+
+
+        @include responsive(mob_lan){
+            font-size: 1.5rem;
+        }
+
         &:hover {
             background-color: $color-8;
             color: $color-3;
@@ -131,6 +155,11 @@
 
         &--bmi {
             margin-top: 12.7rem;
+            
+            
+            @include responsive(mob_min){
+                margin-top: 11.7rem;
+            }
         }
 
         &--calorie {
@@ -273,6 +302,11 @@
     width: 90%;
     transform: translate(-50%, -50%);
     border: .1rem solid $color-8;
+
+
+    @include responsive(mob_min){
+        font-size: 10px;
+    }
     
     &__head {
         font-size: $font-size-ultra-medium;
@@ -280,7 +314,6 @@
     }
     
     &__row {
-        // border: .1rem solid $color-8;
         background-color: rgba($color-8, .3);
         
         &:hover {

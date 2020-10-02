@@ -8,8 +8,20 @@
     transform: skewX(-15deg);
     transition: all ease-in .1s;
     
+    
+    
+    @include responsive(tab_pot){
+        transform: skewX(0deg);
+        width: 100%;
+    }
+    
     & > * {
         transform: skewX(15deg);
+
+
+        @include responsive(tab_pot){
+            transform: skewX(0deg);
+        }
     }
     
     &__circle {
@@ -77,6 +89,11 @@
     &:hover {
         box-shadow: -.8rem .3rem .8rem rgba($color-4, .3);
         transform: translateX(1rem) skewX(-15deg);
+        
+        
+        @include responsive(tab_pot){
+            transform: translateX(1rem) skewX(0deg);
+        }
     }
 
     &:not(:last-child){

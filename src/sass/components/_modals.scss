@@ -28,31 +28,23 @@
     }
     
     &__box {
+        width: clamp(70rem, 60%, 80rem);
         position: fixed;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(0);
         background-color: $color-3;
         border-radius: .5rem;
-        overflow: hidden;
         box-shadow: 0 0 .5rem rgba($color-4, .5);
-        width: 70%;
+        overflow: hidden;
         z-index: 51;
-        display: table;
         opacity: 0;
         transition: all ease-in .3s;
-    }
+        display: flex;
+        justify-content: space-between;
 
-    &__images {
-        width: 40%;
-        display: table-cell;
-        vertical-align: middle;
-        
-        &--image {
-            display: block;
-            width: 100%;
-        }
     }
+    
     
     &__close {
         position: absolute;
@@ -63,34 +55,47 @@
         color: $color-5;
         transition: all ease-in .1s;
         cursor: pointer;
+        display: block;
 
-        &--packages {
-            margin-right: -46rem;
+        @include responsive(tab_pot){
+            display: none;
         }
 
         &:hover {
             transform: rotate(270deg);
             color: $color-8;
         }
+
+        &-responsive {
+            display: none;
+
+            @include responsive(tab_pot){
+                display: block;
+            }
+        }
     }
 
     &__contents {
         width: 60%;
-        display: table-cell;
-        vertical-align: middle;        
     }
 
 
     &__body {
         margin-top: -7rem;
         margin-bottom: 2rem;
-        font-size: $font-size-extra-small;
-        text-align: justify;
         padding: 3rem;
         column-count: 2;
-        column-gap: 5rem;
+        column-gap: 4rem;
         column-rule: .1rem solid $color-4;
         hyphens: auto;
+        text-align: justify;
+        overflow-y: scroll;
+        max-height: 30rem;
+        
+        
+        @include responsive(mob_min){
+            text-align: left;
+        }
     }
 
     &__join {

@@ -19,7 +19,7 @@
 @import "components/utility";
 @import "components/videos";
 
-@import "pages/about";
+@import "pages/sections";
 
 
 
@@ -30,8 +30,34 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%;   // (10px / 16) * 100 = 62.5%
     scroll-behavior: smooth;
+
+
+    @include responsive(tab_lan){
+        font-size: 55%;   // (8px / 16) * 100 = 50%
+    }
+
+    @include responsive(tab_pot){
+        font-size: 47%;   // (6px / 16) * 100 = 37.5%
+        // font-size: 40%;   // (6px / 16) * 100 = 37.5%
+    }
+
+    @include responsive(mob_lan){
+        font-size: 37%;   // (4px / 16) * 100 = 25%
+    }
+
+    @include responsive(mob_pot){
+        font-size: 22%;   // (4px / 16) * 100 = 25%
+    }
+
+    @include responsive(mob_min){
+        font-size: 16%;   // (4px / 16) * 100 = 25%
+    }
+
+    @include responsive(big_scr){
+        font-size: 75%;   // (12px / 16) * 100 = 75%
+    }
 }
 
 body {
@@ -39,6 +65,7 @@ body {
     box-sizing: border-box;  
     font-family: 'Poppins', sans-serif;
     padding: .8rem;
+
 }
 
 

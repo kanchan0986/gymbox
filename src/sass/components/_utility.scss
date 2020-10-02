@@ -33,6 +33,27 @@
     margin-top: 3rem;
 }
 
+.util-mt-res {
+
+    @include responsive(mob_pot){
+        margin-top: -3rem;
+    }
+
+    @include responsive(mob_min){
+        margin-top: 0;
+    }
+}
+
+.util-mb-res {
+    @include responsive(mob_pot){
+        margin-bottom: -1.5rem;
+    }
+
+    @include responsive(mob_min){
+        margin-bottom: -3rem;
+    }
+}
+
 .alert {
     background-color: $color-8;
     color: $color-3;
@@ -45,4 +66,9 @@
     position: absolute;
     top: -110%;
     display: none;
+    
+    
+    @include responsive(tab_pot){
+        width: 100%;
+    }
 }

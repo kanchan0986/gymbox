@@ -50,3 +50,24 @@
 
 
 }
+
+
+// Media Manager//
+
+@mixin responsive($breakpoint){
+
+    @if $breakpoint == mob_min {
+        @media (max-width: 20em){@content}; // Mobile-Mini 0px - 320px or 320/16 = 20em
+    }@else if $breakpoint == mob_pot{
+        @media (max-width: 27.5em){@content}; // Mobile-Potrait 320px - 440px or 440/16 = 27.5em
+    }@else if $breakpoint == mob_lan{
+        @media (max-width: 40em){@content}; // Mobile-Landscape 440px - 640px or 640/16 = 40em
+    }@else if $breakpoint == tab_pot{
+        @media (max-width: 60em){@content}; // Mobile-Potrait 640px - 960px or 960/16 = 60em 
+    }@else if $breakpoint == tab_lan{
+        @media (max-width: 80em){@content}; // Mobile-Landscape 960px - 1280px or 1280/16 = 80em
+    }@else if $breakpoint == big_scr{
+        @media (min-width: 1920px){@content}; // Big-Screen 1920px - infinity px or 1920/16 = 120em
+    }
+}
+

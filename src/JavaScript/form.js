@@ -7,6 +7,7 @@
     const join_Form_Back1_Button = document.getElementById('button-back1-join');
     const join_Form_Back2_Button = document.getElementById('button-back2-join');
     const join_Form2_Close_Button = document.getElementById('form2-close-join');
+    const join_Form2_Close_Resp_Button = document.getElementById('form2-close-join-resp');
     const join_Form2_PayNow_RadioButton = document.getElementById('pay-now-join');
     const join_Form2_PayLater_RadioButton = document.getElementById('pay-later-join');
     const join_Pay_Button = document.getElementById('button-pay-join');
@@ -44,6 +45,7 @@
     join_Form_Back1_Button.addEventListener('click', toggle_Form1_Back_join);
     join_Form_Back2_Button.addEventListener('click', toggle_Form2_Back_join);
     join_Form2_Close_Button.addEventListener('click', close2_And_Reset_join);
+    join_Form2_Close_Resp_Button.addEventListener('click', close2_And_Reset_join);
     join_Form2_PayLater_RadioButton.addEventListener('click', change_PayButton_To_SubmitButton_join);
     join_Form2_PayNow_RadioButton.addEventListener('click', change_SubmitButton_To_PayButton_join);
     join_Form1.addEventListener('submit', submit_join_Form_join);

@@ -25,6 +25,7 @@
                     <a href="#tools" class="nav__items"><li class="nav__item">Tools</li></a>
                     <a href="#testimonials" class="nav__items"><li class="nav__item">Testimonials</li></a>
                     <a href="#join" class="nav__items"><li class="nav__item">Join Us</li></a>
+                    <a href="#footer" class="nav__items"><li class="nav__item">Site Map</li></a>
                 </ul>
             </div>            
             <div class="anchors">
@@ -52,16 +53,18 @@
             </div>
             <div class="row">
                 <div class="col-1-of-2">
-                    <h3 class="headline__about--head1 util-mb-1">Lorem ipsum dolor</h3>
-                    <p class="headline__about--head1--sub1">Sit amet consectetur adipisicing elit. Obcaecati maxime totam at ipsam eos quae, optio, quam laudantium deleniti aliquid pariatur adipisci qui laborum assumenda quasi rem voluptatem eum animi.</p>
-                    
-                    <h3 class="headline__about--head1 util-mb-1">Lorem ipsum dolor</h3>
-                    <p class="headline__about--head1--sub1">Sit amet consectetur adipisicing elit. Obcaecati maxime totam at ipsam eos quae, optio, quam laudantium deleniti aliquid pariatur adipisci qui laborum assumenda quasi rem voluptatem eum animi.</p>
-                    
-                    <a href="javascript:void()" class="button--txt--learn1">Learn More..</a>
+                    <div class="about__box">
+                        <h3 class="headline__about--head1 util-mb-1">Lorem ipsum dolor</h3>
+                        <p class="headline__about--head1--sub1">Sit amet consectetur adipisicing elit. Obcaecati maxime totam at ipsam eos quae, optio, quam laudantium deleniti aliquid pariatur adipisci qui laborum assumenda quasi rem voluptatem eum animi.</p>
+                        
+                        <h3 class="headline__about--head1 util-mb-1">Lorem ipsum dolor</h3>
+                        <p class="headline__about--head1--sub1">Sit amet consectetur adipisicing elit. Obcaecati maxime totam at ipsam eos quae, optio, quam laudantium deleniti aliquid pariatur adipisci qui laborum assumenda quasi rem voluptatem eum animi.</p>
+                        
+                        <a href="#features" class="button--txt--learn1">Learn More..</a>
+                    </div>
                 </div>
                 <div class="col-1-of-2">
-                    <div class="galary">
+                    <div class="galary about__box">
                         <img src="./Images/sven-mieke-EuwD039Svug-unsplash.jpg" alt="image1" class="galary__image galary__image--image1">
                         <img src="./Images/anastase-maragos-7P5AOnw6cWQ-unsplash.jpg" alt="img2" class="galary__image galary__image--image2">
                         <img src="./Images/humphrey-muleba-LOA2mTj1vhc-unsplash.jpg" alt="img3" class="galary__image galary__image--image3">
@@ -130,7 +133,7 @@
                                 <li class="packages__details__list--listitems packages__details__list--listitems1--item7"><i class="fa fa-check"></i>Diet Chart</li>
                             </ul>
                         </div>
-                        <div class="packages__details__sides packages__details__sides--back">
+                        <div class="packages__details__sides packages__details__sides--back packages__details__sides--back-1">
                             <h3 class="packages__details__price packages__details__price--first">$75</h3>
                             <a href="#modal-5" class="button--txt--cards" type="button">Join</a>
                         </div>
@@ -155,7 +158,7 @@
                                 <li class="packages__details__list--listitems packages__details__list--listitems2--item9"><i class="fa fa-check"></i>Diet Chart</li>
                             </ul>
                        </div>
-                       <div class="packages__details__sides packages__details__sides--back">
+                       <div class="packages__details__sides packages__details__sides--back packages__details__sides--back-2">
                             <h3 class="packages__details__price packages__details__price--second">$225</h3>
                             <a href="#modal-5" class="button--txt--cards" type="button">Join</a>
                         </div>
@@ -182,7 +185,7 @@
                                 <li class="packages__details__list--listitems packages__details__list--listitems2--item11"><i class="fa fa-check"></i>Personal Trainer</li>
                             </ul>
                        </div>
-                       <div class="packages__details__sides packages__details__sides--back">
+                       <div class="packages__details__sides packages__details__sides--back packages__details__sides--back-3">
                             <h3 class="packages__details__price packages__details__price--third">$900</h3>
                             <a href="#modal-5" class="button--txt--cards" type="button">Join</a>
                         </div>
@@ -395,7 +398,7 @@
                                     <input type="text" class="join-form__input--mobile" id="mobile-join" placeholder="Mobile number">
                                     <label for="mobile-join" class="join-form__input--label" id="join-mobile-label">Mobile number</label>
                                 </div>
-                                <div class="button--radio__radio">
+                                <div class="button--radio__radio util-mb-res">
                                     <input type="radio" class="button--radio__radio--input" id="man-join" value="male" name="gender-join-form1">
                                     <span class="button--radio__radio--input-custom">&nbsp;</span>
                                     <label for="man-join" class="button--radio__radio--label">Male</label>
@@ -403,7 +406,7 @@
                                     <span class="button--radio__radio--input-custom">&nbsp;</span>
                                     <label for="woman-join" class="button--radio__radio--label">Female</label>
                                 </div>
-                                <div class="buttons util-mt-5">
+                                <div class="buttons util-mt-5 util-mb-res">
                                     <span class="alert" id="alert-join-form1">Please complete the previous form!</span>
                                     <button type="button" class="button--txt--join-next" id="button-next-join">Next</button>
                                     <a class="button--txt--join-back button--txt--join-back--1" id="button-back1-join">Clear</a>
@@ -415,8 +418,9 @@
                 <div class="joining__join" id="join-form-2">
                     <div class="row">
                         <div class="join__box">
+                            <a class="modal__close" id="form2-close-join">&times;</a>
                             <div class="join-form" id="join-form2-join">
-                                <a class="modal__close modal__close--packages" id="form2-close-join">&times;</a>
+                                <a class="modal__close modal__close-responsive" id="form2-close-join-resp">&times;</a>
                                 <h2 class="headline__testimonials">Join Us Now!</h2>
                                 <div class="join-form__input util-mb-1">
                                     <input type="number" class="join-form__input--age join-form__input--input-age" id="age-join-form" placeholder="Enter your Age">
@@ -431,7 +435,7 @@
                                     <span class="button--radio__radio--input-custom">&nbsp;</span>
                                     <label for="no-join" class="button--radio__radio--label">No</label>
                                 </div>
-                                <div class="join-form__input util-mb-2">
+                                <div class="join-form__input util-mb-2 util-mt-res">
                                     <label for="join-join-date" class="join-form__input--label join-form__input--joining-date--label">Tentative Joining Date</label>
                                     <input type="date" class="join-form__input--name join-form__input--joining-date" id="join-join-date">
                                 </div>
@@ -453,7 +457,7 @@
                                         <option value="diamond">Diamond: $900 per annum</option>
                                     </select>
                                 </div>
-                                <div class="button--radio__radio">
+                                <div class="button--radio__radio util-mb-res">
                                     <input type="radio" class="button--radio__radio--input" id="pay-now-join" name="pay-join-form2" value="pay now">
                                     <span class="button--radio__radio--input-custom">&nbsp;</span>
                                     <label for="pay-now-join" class="button--radio__radio--label">Pay Now</label>
@@ -477,53 +481,56 @@
 
             
     </main>
-    <footer class="footer">
-        <div class="row">
-            <div class="col-1-of-4">
-                <div class="section-list util-mt-15">
-                    <h3><a href="#home" class="section-list__first section-list__first--home">Home</a></h3>
-                    <h3><a href="#about" class="section-list__first section-list__first--about">About Us</a></h3>
-                    <h3><a href="#features" class="section-list__first section-list__first--feature">Features</a></h3>
-                    <h3><a href="#packages" class="section-list__first section-list__first--package">Packages</a></h3>
-                </div>
-            </div>
-            <div class="col-1-of-4">
-                <div class="section-list util-mt-15">
-                    <h3><a href="#tools" class="section-list__second section-list__second--tool">Tools</a></h3>
-                    <h3><a href="#testimonials" class="section-list__second section-list__second--testimonial">Testimonials</a></h3>
-                    <h3><a href="#join" class="section-list__second section-list__second--join">Join Us</a></h3>
-                </div>
-            </div>
-            <div class="col-2-of-4">
-                <div class="information util-ta-center">
-                    <div class="information__logo-box">
-                        <a href="#home"><img src="./Images/Logo.png" alt="logo" class="information__logo-box--logo"></a>
-                    </div>
-                    <div class="information__address">
-                        <h2 class="information__address--cname">Gymbox pvt. ltd.</h2>
-                        <p class="information__address--caddress">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis ea adipisci! Nobis</p>
-                        <div class="information__address__numbers">
-                            <div class="information__address__numbers__first">
-                                <span class="information__address__numbers__first--n1"><span class="information__address__numbers__first--n2">Telephone:</span> 0326-2230772</span>
-                                <span class="information__address__numbers__first--n1"><span class="information__address__numbers__first--n2">Mobile:</span> +91 8569745698</span>
-                            </div>
-                            <div class="information__address__numbers__second">
-                                <span class="information__address__numbers__second--n1"><span class="information__address__numbers__second--n2">E-Mail:</span> xyz@email.com</span>
-                                <span class="information__address__numbers__second--n1"><span class="information__address__numbers__second--n2">Website:</span> boxgym.com</span>
-                            </div>
+    <footer class="footer" id="footer">
+        <span class="line">&nbsp;</span>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="section-list util-mt-15">
+                        <div class="section-list__first-div">
+                            <h3><a href="#home" class="section-list__first section-list__first--home">Home</a></h3>
+                            <h3><a href="#about" class="section-list__first section-list__first--about">About Us</a></h3>
+                            <h3><a href="#features" class="section-list__first section-list__first--feature">Features</a></h3>
+                            <h3><a href="#packages" class="section-list__first section-list__first--package">Packages</a></h3>
+                        </div>
+                        
+                        <div class="section-list__second-div">
+                            <h3><a href="#tools" class="section-list__second section-list__second--tool">Tools</a></h3>
+                            <h3><a href="#testimonials" class="section-list__second section-list__second--testimonial">Testimonials</a></h3>
+                            <h3><a href="#join" class="section-list__second section-list__second--join">Join Us</a></h3>
+                            <h3><a href="#footer" class="section-list__second section-list__second--footer">Site Map</a></h3>
                         </div>
                     </div>
-                    <div class="information__social">
-                        <a href="javascript:void()" class="information__social__images"><img src="./Images/Facebook.png" alt="facbook" class="information__social__images--icons"></a>
-                        <a href="javascript:void()" class="information__social__images"><img src="./Images/twitter.png" alt="twitter" class="information__social__images--icons"></a>_
-                        <a href="javascript:void()" class="information__social__images"><img src="./Images/Instagram.png" alt="instagram" class="information__social__images--icons"></a>
-                        <a href="javascript:void()" class="information__social__images"><img src="./Images/Watsapp.png" alt="watsapp" class="information__social__images--icons"></a>
-                        <a href="javascript:void()" class="information__social__images"><img src="./Images/Pintrest.png" alt="pinterest" class="information__social__images--icons"></a>
-                        <a href="javascript:void()" class="information__social__images"><img src="./Images/You-tube.png" alt="youtube" class="information__social__images--icons"></a>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="information util-ta-center">
+                        <div class="information__logo-box">
+                            <a href="#home"><img src="./Images/Logo.png" alt="logo" class="information__logo-box--logo"></a>
+                        </div>
+                        <div class="information__address">
+                            <h2 class="information__address--cname">Gymbox pvt. ltd.</h2>
+                            <p class="information__address--caddress">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis ea adipisci! Nobis</p>
+                            <div class="information__address__numbers">
+                                <div class="information__address__numbers__first">
+                                    <span class="information__address__numbers__first--n1"><span class="information__address__numbers__first--n2">Telephone:</span> 0326-2230772</span>
+                                    <span class="information__address__numbers__first--n1"><span class="information__address__numbers__first--n2">Mobile:</span> +91 8569745698</span>
+                                </div>
+                                <div class="information__address__numbers__second">
+                                    <span class="information__address__numbers__second--n1"><span class="information__address__numbers__second--n2">E-Mail:</span> xyz@email.com</span>
+                                    <span class="information__address__numbers__second--n1"><span class="information__address__numbers__second--n2">Website:</span> boxgym.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="information__social">
+                            <a href="javascript:void()" class="information__social__images"><img src="./Images/Facebook.png" alt="facbook" class="information__social__images--icons"></a>
+                            <a href="javascript:void()" class="information__social__images"><img src="./Images/twitter.png" alt="twitter" class="information__social__images--icons"></a>
+                            <a href="javascript:void()" class="information__social__images"><img src="./Images/Instagram.png" alt="instagram" class="information__social__images--icons"></a>
+                            <a href="javascript:void()" class="information__social__images"><img src="./Images/Watsapp.png" alt="watsapp" class="information__social__images--icons"></a>
+                            <a href="javascript:void()" class="information__social__images"><img src="./Images/Pintrest.png" alt="pinterest" class="information__social__images--icons"></a>
+                            <a href="javascript:void()" class="information__social__images"><img src="./Images/You-tube.png" alt="youtube" class="information__social__images--icons"></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         <div class="util-ta-center">
             <span class="footer__copyright" id="footer">&copy; Gymbox pvt. ltd.</span>
         </div>
@@ -531,9 +538,8 @@
     <div class="modals">
         <div class="modal" id="modal-1">
             <div class="modal__box">
-                <div class="modal__images">
-                    <img src="./Images/inspired-horizons-digital-marketing-kufLAiPoIlI-unsplash.jpg" alt="Yoga" class="modal__images--image">
-                </div>
+                <a href="#features" class="modal__close modal__close-responsive">&times;</a>
+                <div class="modal__images--image-1"></div>
                 <div class="modal__contents">
                     <a href="#features" class="modal__close">&times;</a>
                     <div class="modal__header--box util-ta-center util-mb-8">
@@ -548,9 +554,8 @@
         </div>
         <div class="modal" id="modal-2">
             <div class="modal__box">
-                <div class="modal__images">
-                    <img src="./Images/samuel-girven-RrCvrrYtlqQ-unsplash.jpg" alt="Cardio" class="modal__images--image">
-                </div>
+                <a href="#features" class="modal__close modal__close-responsive">&times;</a>
+                <div alt="Cardio" class="modal__images--image-2"></div>
                 <div class="modal__contents">
                     <a href="#features" class="modal__close">&times;</a>
                     <div class="modal__header--box util-ta-center util-mb-8">
@@ -565,9 +570,8 @@
         </div>
         <div class="modal" id="modal-3">
             <div class="modal__box">
-                <div class="modal__images">
-                    <img src="./Images/logan-weaver-tBmmA3pTciA-unsplash.jpg" alt="Weight" class="modal__images--image">
-                </div>
+                <a href="#features" class="modal__close modal__close-responsive">&times;</a>
+                <div alt="Weight" class="modal__images--image-3"></div>
                 <div class="modal__contents">
                     <a href="#features" class="modal__close">&times;</a>
                     <div class="modal__header--box util-ta-center util-mb-8">
@@ -582,9 +586,8 @@
         </div>
         <div class="modal" id="modal-4">
             <div class="modal__box">
-                <div class="modal__images">
-                    <img src="./Images/Zumba+April+2018+(5+of+79).jpg" alt="Zumba" class="modal__images--image">
-                </div>
+                <a href="#features" class="modal__close modal__close-responsive">&times;</a>
+                <div alt="Zumba" class="modal__images--image-4"></div>
                 <div class="modal__contents">
                     <a href="#features" class="modal__close">&times;</a>
                     <div class="modal__header--box util-ta-center util-mb-8">
@@ -602,8 +605,9 @@
                 <div class="modal__join" id="modal-form-1">
                     <div class="row">
                         <div class="join__box">
+                            <a href="#packages" class="modal__close" id="form1-close-modal">&times;</a>
                             <div class="join-form">
-                                <a href="#packages" class="modal__close modal__close--packages" id="form1-close-modal">&times;</a>
+                                <a href="#packages" class="modal__close modal__close-responsive" id="form1-close-modal">&times;</a>
                                 <h2 class="headline__testimonials">Join Us Now!</h2>
                                 <div class="join-form__input util-mb-1">
                                     <input type="text" class="join-form__input--name" id="name" placeholder="Full Name">
@@ -617,7 +621,7 @@
                                     <input type="text" class="join-form__input--mobile" id="mobile" placeholder="Mobile number">
                                     <label for="mobile" class="join-form__input--label" id="modal-mobile-label">Mobile number</label>
                                 </div>
-                                <div class="button--radio__radio">
+                                <div class="button--radio__radio util-mb-res">
                                     <input type="radio" class="button--radio__radio--input" id="man-modal" value="male" name="gender-modal-form1">
                                     <span class="button--radio__radio--input-custom">&nbsp;</span>
                                     <label for="man-modal" class="button--radio__radio--label">Male</label>
@@ -625,7 +629,7 @@
                                     <span class="button--radio__radio--input-custom">&nbsp;</span>
                                     <label for="woman-modal" class="button--radio__radio--label">Female</label>
                                 </div>
-                                <div class="buttons util-mt-5">
+                                <div class="buttons util-mt-5 util-mb-res">
                                     <span class="alert" id="alert-modal-form1">Please complete the previous form!</span>
                                     <button type="button" class="button--txt--join-next" id="button-next-modal">Next</button>
                                     <a href="#packages" class="button--txt--join-back button--txt--join-back--1" id="button-back1-modal">Back</a>
@@ -637,8 +641,9 @@
                 <div class="modal__join" id="modal-form-2">
                     <div class="row">
                         <div class="join__box">
+                            <a href="#packages" class="modal__close" id="form2-close-modal">&times;</a>
                             <div class="join-form" id="join-form2-modal">
-                                <a href="#packages" class="modal__close modal__close--packages" id="form2-close-modal">&times;</a>
+                                <a href="#packages" class="modal__close modal__close-responsive" id="form2-close-modal">&times;</a>
                                 <h2 class="headline__testimonials">Join Us Now!</h2>
                                 <div class="join-form__input util-mb-1">
                                     <input type="number" class="join-form__input--age join-form__input--input-age" id="age-modal-form" placeholder="Enter your Age">
@@ -653,7 +658,7 @@
                                     <span class="button--radio__radio--input-custom">&nbsp;</span>
                                     <label for="no-modal" class="button--radio__radio--label">No</label>
                                 </div>
-                                <div class="join-form__input util-mb-2">
+                                <div class="join-form__input util-mb-2 util-mt-res">
                                     <label for="join-modal-date" class="join-form__input--label join-form__input--joining-date--label">Tentative Joining Date</label>
                                     <input type="date" class="join-form__input--name join-form__input--joining-date" id="join-modal-date">
                                 </div>
@@ -675,7 +680,7 @@
                                         <option value="diamond">Diamond: $900 per annum</option>
                                     </select>
                                 </div>
-                                <div class="button--radio__radio">
+                                <div class="button--radio__radio util-mb-res">
                                     <input type="radio" class="button--radio__radio--input" id="pay-now-modal" name="pay-modal-form2" value="pay now">
                                     <span class="button--radio__radio--input-custom">&nbsp;</span>
                                     <label for="pay-now-modal" class="button--radio__radio--label">Pay Now</label>

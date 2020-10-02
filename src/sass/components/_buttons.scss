@@ -17,6 +17,16 @@
         animation-timing-function: ease-out;
         animation-delay: 1s;
         animation-fill-mode: backwards;
+
+        @include responsive(mob_lan){
+            font-size: 3rem;
+            padding: .1rem 3.3rem;
+        }
+
+        @include responsive(mob_pot){
+            font-size: 3.2rem;
+            padding: .06rem 4.2rem;
+        }
     }
     
     &:hover {
@@ -76,7 +86,6 @@
     &--submit {
         @include btn($color-1, $color-5, $color-7, $color-3, $font-size-small, .5rem, 3rem);
         border-radius: 50rem;
-        // margin-top: 3rem;
         margin-right: 5rem;
         cursor: pointer;
     }
@@ -84,38 +93,31 @@
     &--clear {
         @include btn($color-1, $color-5, $color-8, $color-3, $font-size-small, .5rem, 3rem);
         border-radius: 50rem;
-        // margin-top: 3rem;
-        // margin-left: 5rem;
         cursor: pointer;
     }
 
     &--modal {
-        @include btn($color-1, $color-5, $color-8, $color-3, $font-size-small, .5rem, 3rem);
+        @include btn($color-1, $color-5, $color-8, $color-3, $font-size-extra-small, .4rem, 2rem);
         border-radius: 50rem;
-        // margin-top: 3rem;
-        // margin-left: 5rem;
+        margin-bottom: 2rem;
         cursor: pointer;
     }
     
     &--join-next {
         @include btn($color-1, $color-5, $color-8, $color-3, $font-size-small, .6rem, 3rem);
         border-radius: 50rem;
-        // margin-top: 3rem;
-        margin-left: 8rem;
-        cursor: pointer;        
+        cursor: pointer;
     }
 
     &--join-back {
         @include btn($color-1, $color-5, $color-8, $color-3, $font-size-small, .6rem, 3rem);
         border-radius: 50rem;
-        // margin-top: 3rem;
         margin-left: 5rem;
         cursor: pointer;
         
         &--1 {
             @include btn($color-1, $color-5, $color-8, $color-3, $font-size-small, .2rem, 3rem);
             border-radius: 50rem;
-            // margin-top: 3rem;
             margin-left: 5rem;
             cursor: pointer;
         }
@@ -128,6 +130,11 @@
 .button--radio {
     &__radio {
         margin-bottom: 3rem;
+        
+        
+        @include responsive(mob_min){
+            margin-bottom: -2rem;
+        }
 
         &--input {
             opacity: 0;
@@ -167,6 +174,15 @@
             margin-right: 2.5rem;
             cursor: pointer;
             position: relative;
+
+
+            @include responsive(mob_pot){
+                bottom: 1.5rem;
+            }
+
+            @include responsive(mob_min){
+                bottom: 3rem;
+            }
 
             &:hover {
                 color: $color-2;
