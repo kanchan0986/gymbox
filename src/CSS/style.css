@@ -2825,7 +2825,7 @@
 @media (max-width: 20em) {
   .features {
     margin-top: -48.6rem;
-    padding: 39rem 18rem 170rem 18rem;
+    padding: 45rem 18rem 201rem 18rem;
     clip-path: polygon(0% 9.6%, 100% 6%, 100% 58%, 0% 61.7%);
   }
 }
@@ -2869,7 +2869,7 @@
 
 @media (max-width: 20em) {
   .packages {
-    margin-top: -212rem;
+    margin-top: -206rem;
     padding: 21rem 18rem 28rem 18rem;
     clip-path: polygon(0 7.5%, 100% 0%, 100% 90%, 0 97.8%);
   }
