@@ -28,7 +28,8 @@
             font-family: inherit;
             border-radius: .2rem;
             border-bottom: .15rem solid transparent;
-            transition: all .1s;   
+            transition: all .1s;
+            -moz-appearance: textfield;   
             
             
             @include responsive(tab_pot){

@@ -594,6 +594,7 @@
   border-radius: .2rem;
   border-bottom: .15rem solid transparent;
   transition: all .1s;
+  -moz-appearance: textfield;
 }
 
 .calculator__input--input::-webkit-inner-spin-button {
@@ -977,7 +978,7 @@
 
 .packages__details__images {
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   height: 25rem;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -985,15 +986,69 @@
 }
 
 .packages__details__images--image1 {
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/anastase-maragos-7kEpUPB8vNk-unsplash.jpg");
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/anastase-maragos-7kEpUPB8vNk-small.jpg");
+}
+
+@media (min-width: 441px) {
+  .packages__details__images--image1 {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/anastase-maragos-7kEpUPB8vNk-medium.jpg");
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+  .packages__details__images--image1 {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/anastase-maragos-7kEpUPB8vNk-large.jpg");
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1920px) {
+  .packages__details__images--image1 {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/anastase-maragos-7kEpUPB8vNk-extra-large.jpg");
+  }
 }
 
 .packages__details__images--image2 {
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/bruce-mars-gJtDg6WfMlQ-unsplash.jpg");
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/bruce-mars-gJtDg6WfMlQ-small.jpg");
+}
+
+@media (min-width: 441px) {
+  .packages__details__images--image2 {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/bruce-mars-gJtDg6WfMlQ-medium.jpg");
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+  .packages__details__images--image2 {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/bruce-mars-gJtDg6WfMlQ-large.jpg");
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1920px) {
+  .packages__details__images--image2 {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/bruce-mars-gJtDg6WfMlQ-extra-large.jpg");
+  }
 }
 
 .packages__details__images--image3 {
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/jelmer-assink-gzeTjGu3b_k-unsplash.jpg");
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/jelmer-assink-gzeTjGu3b_k-small.jpg");
+}
+
+@media (min-width: 441px) {
+  .packages__details__images--image3 {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/jelmer-assink-gzeTjGu3b_k-medium.jpg");
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+  .packages__details__images--image3 {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/jelmer-assink-gzeTjGu3b_k-large.jpg");
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1920px) {
+  .packages__details__images--image3 {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/jelmer-assink-gzeTjGu3b_k-extra-large.jpg");
+  }
 }
 
 .packages__details__headline {
@@ -1396,6 +1451,7 @@
   border-radius: .2rem;
   border-bottom: .15rem solid transparent;
   transition: all .1s;
+  -moz-appearance: textfield;
 }
 
 @media (max-width: 60em) {
@@ -1812,7 +1868,7 @@
   position: relative;
   z-index: 3;
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../Images/man-1282232_1920.jpg);
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../Images/man-1282232-small.jpg);
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
@@ -1839,6 +1895,24 @@
 @media (max-width: 20em) {
   .header {
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 93.7%);
+  }
+}
+
+@media (min-width: 441px) {
+  .header {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../Images/man-1282232-medium.jpg);
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+  .header {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../Images/man-1282232-large.jpg);
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1920px) {
+  .header {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../Images/man-1282232-extra-large.jpg);
   }
 }
 
@@ -2184,27 +2258,81 @@
 }
 
 .modal__images--image-1 {
-  background-image: url(../Images/inspired-horizons-digital-marketing-kufLAiPoIlI-unsplash.jpg);
+  background-image: url(../Images/inspired-horizons-digital-marketing-kufLAiPoIlI-small.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 50%;
+}
+
+@media (min-width: 441px) {
+  .modal__images--image-1 {
+    background-image: url(../Images/inspired-horizons-digital-marketing-kufLAiPoIlI-medium.jpg);
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+  .modal__images--image-1 {
+    background-image: url(../Images/inspired-horizons-digital-marketing-kufLAiPoIlI-large.jpg);
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1920px) {
+  .modal__images--image-1 {
+    background-image: url(../Images/inspired-horizons-digital-marketing-kufLAiPoIlI-extra-large.jpg);
+  }
 }
 
 .modal__images--image-2 {
-  background-image: url(../Images/samuel-girven-RrCvrrYtlqQ-unsplash.jpg);
+  background-image: url(../Images/samuel-girven-RrCvrrYtlqQ-small.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 50%;
 }
 
+@media (min-width: 441px) {
+  .modal__images--image-2 {
+    background-image: url(../Images/samuel-girven-RrCvrrYtlqQ-medium.jpg);
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+  .modal__images--image-2 {
+    background-image: url(../Images/samuel-girven-RrCvrrYtlqQ-large.jpg);
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1920px) {
+  .modal__images--image-2 {
+    background-image: url(../Images/samuel-girven-RrCvrrYtlqQ-extra-large.jpg);
+  }
+}
+
 .modal__images--image-3 {
-  background-image: url(../Images/logan-weaver-tBmmA3pTciA-unsplash.jpg);
+  background-image: url(../Images/logan-weaver-tBmmA3pTciA-small.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 50%;
+}
+
+@media (min-width: 441px) {
+  .modal__images--image-3 {
+    background-image: url(../Images/logan-weaver-tBmmA3pTciA-medium.jpg);
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+  .modal__images--image-3 {
+    background-image: url(../Images/logan-weaver-tBmmA3pTciA-large.jpg);
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1920px) {
+  .modal__images--image-3 {
+    background-image: url(../Images/logan-weaver-tBmmA3pTciA-extra-large.jpg);
+  }
 }
 
 .modal__images--image-4 {
@@ -2782,7 +2910,7 @@
 .features {
   background-color: #ffffff;
   padding: 20rem 10rem 80rem 10rem;
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/cathy-pham-3jAN9InapQI-unsplash (1).jpg");
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/cathy-pham-3jAN9InapQI-small.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2827,6 +2955,24 @@
     margin-top: -48.6rem;
     padding: 45rem 18rem 201rem 18rem;
     clip-path: polygon(0% 9.6%, 100% 6%, 100% 58%, 0% 61.7%);
+  }
+}
+
+@media (min-width: 441px) {
+  .features {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/cathy-pham-3jAN9InapQI-medium.jpg");
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+  .features {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/cathy-pham-3jAN9InapQI-large.jpg");
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1920px) {
+  .features {
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../Images/cathy-pham-3jAN9InapQI-extra-large.jpg");
   }
 }
 
@@ -2915,7 +3061,7 @@
 .tools {
   background-color: #ffffff;
   padding: 18rem 10rem 80rem 10rem;
-  background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../Images/brooke-lark-jUPOXXRNdcA-unsplash.jpg");
+  background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../Images/brooke-lark-jUPOXXRNdcA-small.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 190%;
@@ -2966,6 +3112,24 @@
   }
 }
 
+@media (min-width: 441px) {
+  .tools {
+    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../Images/brooke-lark-jUPOXXRNdcA-medium.jpg");
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+  .tools {
+    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../Images/brooke-lark-jUPOXXRNdcA-large.jpg");
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1920px) {
+  .tools {
+    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../Images/brooke-lark-jUPOXXRNdcA-extra-large.jpg");
+  }
+}
+
 .join {
   margin-top: -74rem;
   padding: 27rem 10rem 27rem 10rem;
@@ -2976,7 +3140,7 @@
 .join__box {
   position: relative;
   padding: 25rem 0;
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 0.8) 60%, transparent 50%), url("../Images/people-2604149_1920.jpg");
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 0.8) 60%, transparent 50%), url("../Images/people-2604149-large.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.3);
@@ -2986,7 +3150,7 @@
   .join__box {
     position: relative;
     padding: 25rem 0;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../Images/people-2604149_1920.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../Images/people-2604149-large.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

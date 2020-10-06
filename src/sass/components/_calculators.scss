@@ -67,6 +67,7 @@
             border-radius: .2rem;
             border-bottom: .15rem solid transparent;
             transition: all .1s;
+            -moz-appearance: textfield;
 
             &::-webkit-inner-spin-button {
                 -webkit-appearance: none;

@@ -51,7 +51,7 @@
 .features {
     background-color: $color-3;
     padding: 20rem 10rem 80rem 10rem;
-    background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url("../Images/cathy-pham-3jAN9InapQI-unsplash\ \(1\).jpg");
+    background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url("../Images/cathy-pham-3jAN9InapQI-small.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,6 +69,7 @@
         clip-path: polygon(0% 9%, 100% 6%, 100% 58%, 0% 61%);
         margin-top: -37.6rem;
         background-position: left;
+
     }
     
     @include responsive(mob_lan){
@@ -87,6 +88,18 @@
         margin-top: -48.6rem;
         padding: 45rem 18rem 201rem 18rem;
         clip-path: polygon(0% 9.6%, 100% 6%, 100% 58%, 0% 61.7%);
+    }
+
+    @media (min-width: 441px) {
+        background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url("../Images/cathy-pham-3jAN9InapQI-medium.jpg");
+    }
+    
+    @media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+        background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url("../Images/cathy-pham-3jAN9InapQI-large.jpg");
+    }
+
+    @media (min-resolution: 192dpi) and (min-width: 1920px) {
+        background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url("../Images/cathy-pham-3jAN9InapQI-extra-large.jpg");
     }
 }
 
@@ -157,7 +170,7 @@
 .tools {
     background-color: $color-3;
     padding: 18rem 10rem 80rem 10rem;
-    background-image: linear-gradient(to right bottom, rgba($color-8, .5), rgba($color-7, .5)), url("../Images/brooke-lark-jUPOXXRNdcA-unsplash.jpg");
+    background-image: linear-gradient(to right bottom, rgba($color-8, .5), rgba($color-7, .5)), url("../Images/brooke-lark-jUPOXXRNdcA-small.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 190%;
@@ -197,6 +210,19 @@
         padding: 21rem 12rem 102rem 12rem;
         clip-path: polygon(0% 7.7%, 100% 0%, 100% 64%, 0% 71.9%);
     }
+
+
+    @media (min-width: 441px) {
+        background-image: linear-gradient(to right bottom, rgba($color-8, .5), rgba($color-7, .5)), url("../Images/brooke-lark-jUPOXXRNdcA-medium.jpg");
+    }
+    
+    @media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+        background-image: linear-gradient(to right bottom, rgba($color-8, .5), rgba($color-7, .5)), url("../Images/brooke-lark-jUPOXXRNdcA-large.jpg");
+    }
+
+    @media (min-resolution: 192dpi) and (min-width: 1920px) {
+        background-image: linear-gradient(to right bottom, rgba($color-8, .5), rgba($color-7, .5)), url("../Images/brooke-lark-jUPOXXRNdcA-extra-large.jpg");
+    }
 }
 
 .join {
@@ -209,7 +235,7 @@
     &__box {
         position: relative;
         padding: 25rem 0;
-        background-image: linear-gradient(105deg, rgba($color-3, .8)60%, rgba($color-3, .8)60%, transparent 50%), url("../Images/people-2604149_1920.jpg");
+        background-image: linear-gradient(105deg, rgba($color-3, .8)60%, rgba($color-3, .8)60%, transparent 50%), url("../Images/people-2604149-large.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         box-shadow: 0 .4rem .8rem rgba($color-4, .3);
@@ -218,7 +244,7 @@
         @include responsive(tab_pot){
             position: relative;
             padding: 25rem 0;
-            background-image: linear-gradient(rgba($color-3, .8),  rgba($color-3, .8)), url("../Images/people-2604149_1920.jpg");
+            background-image: linear-gradient(rgba($color-3, .8),  rgba($color-3, .8)), url("../Images/people-2604149-large.jpg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
