@@ -1,0 +1,74 @@
+.util-ta-center {
+    text-align: center;
+}
+
+.util-mb-8 {
+    margin-bottom: 8rem;
+}
+
+.util-mb-6 {
+    margin-bottom: 6rem;
+}
+
+.util-mb-4 {
+    margin-bottom: 4rem;
+}
+
+.util-mb-2 {
+    margin-bottom: 2rem;
+}
+
+.util-mb-1 {
+    margin-bottom: 1rem;
+}
+
+.util-mt-15 {
+    margin-top: 15rem;
+}
+
+.util-mt-5 {
+    margin-top: 5rem;
+}
+.util-mt-3 {
+    margin-top: 3rem;
+}
+
+.util-mt-res {
+
+    @include responsive(mob_pot){
+        margin-top: -3rem;
+    }
+
+    @include responsive(mob_min){
+        margin-top: 0;
+    }
+}
+
+.util-mb-res {
+    @include responsive(mob_pot){
+        margin-bottom: -1.5rem;
+    }
+
+    @include responsive(mob_min){
+        margin-bottom: -3rem;
+    }
+}
+
+.alert {
+    background-color: $color-8;
+    color: $color-3;
+    width: 85%;
+    font-size: $font-size-extra-small;
+    padding: .2rem;
+    display: inline-block;
+    text-align: center;
+    opacity: 80%;
+    position: absolute;
+    top: -110%;
+    display: none;
+    
+    
+    @include responsive(tab_pot){
+        width: 100%;
+    }
+}

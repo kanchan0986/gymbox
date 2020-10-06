@@ -1,0 +1,125 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba($color-4, .95);
+    z-index: 50;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+    
+    &:target {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &:target &__box {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+        transition: all ease-in .3s .1s;
+    }
+
+    &:target &__join {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+        transition: all ease-in .3s .1s;
+    }
+    
+    &__box {
+        width: clamp(70rem, 60%, 80rem);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        background-color: $color-3;
+        border-radius: .5rem;
+        box-shadow: 0 0 .5rem rgba($color-4, .5);
+        overflow: hidden;
+        z-index: 51;
+        opacity: 0;
+        transition: all ease-in .3s;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    
+    
+    &__close {
+        position: absolute;
+        top: 0;
+        right: 2rem;
+        font-size: $font-size-medium;
+        text-decoration: none;
+        color: $color-5;
+        transition: all ease-in .1s;
+        cursor: pointer;
+        display: block;
+
+        @include responsive(tab_pot){
+            display: none;
+        }
+
+        &:hover {
+            transform: rotate(270deg);
+            color: $color-8;
+        }
+
+        &-responsive {
+            display: none;
+
+            @include responsive(tab_pot){
+                display: block;
+            }
+        }
+    }
+
+    &__contents {
+        width: 60%;
+    }
+
+
+    &__body {
+        margin-top: -7rem;
+        margin-bottom: 2rem;
+        padding: 3rem;
+        column-count: 2;
+        column-gap: 4rem;
+        column-rule: .1rem solid $color-4;
+        hyphens: auto;
+        text-align: justify;
+        overflow-y: scroll;
+        max-height: 30rem;
+        
+        
+        @include responsive(mob_min){
+            text-align: left;
+        }
+    }
+
+    &__join {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        width: 70%;
+        opacity: 0;
+        transition: all ease-in .3s;
+    }
+    
+}
+
+#modal-form-1 {
+    // display: block;
+    position: absolute;
+    z-index: 501;
+}
+
+#modal-form-2 {
+    // display: none;
+    position: absolute;
+    z-index: 500;
+}
+
+

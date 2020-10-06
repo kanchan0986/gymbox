@@ -1,0 +1,299 @@
+.navigation {
+    position: relative;
+}
+
+.about {
+    background-color: $color-6;
+    padding: 16rem 20rem 23rem 20rem;
+    margin-top: -20vh;
+    
+    
+    @include responsive(tab_lan){
+        padding: 16rem 6rem 21rem 6rem;
+    }
+
+    @include responsive(tab_pot){
+        padding: 19rem 6rem 20rem 6rem;
+    }
+    
+    @include responsive(mob_lan){
+        padding: 17rem 6rem 19rem 6rem;
+    }
+    
+    @include responsive(mob_pot){
+        padding: 24rem 6rem 20rem 6rem;
+    }
+    
+    @include responsive(mob_min){
+        padding: 30rem 6rem 22rem 6rem;
+    }
+
+
+    &__box {
+
+
+        @include responsive(tab_pot){
+            margin: 0 -6rem;
+        }
+        @include responsive(mob_lan){
+            margin: 0 -2rem;
+        }
+        @include responsive(mob_pot){
+            margin: 0 -8rem;
+        }
+        @include responsive(mob_min){
+            margin: 0 -6rem;
+        }
+    
+    }
+}
+
+.features {
+    background-color: $color-3;
+    padding: 20rem 10rem 80rem 10rem;
+    background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url("../Images/cathy-pham-3jAN9InapQI-small.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -24.6rem;
+    clip-path: polygon(0% 15%, 100% 0%, 100% 55%, 0% 70%);
+    
+    
+    @include responsive(tab_lan){
+        padding: 20rem 6rem 80rem 6rem;
+        clip-path: polygon(0% 13%, 100% 0%, 100% 55%, 0% 70%);
+    }
+    
+    @include responsive(tab_pot){
+        padding: 35rem 18rem 158rem 18rem;
+        clip-path: polygon(0% 9%, 100% 6%, 100% 58%, 0% 61%);
+        margin-top: -37.6rem;
+        background-position: left;
+
+    }
+    
+    @include responsive(mob_lan){
+        margin-top: -38.6rem;
+        padding: 38rem 18rem 163rem 18rem;
+        clip-path: polygon(0% 10.3%, 100% 6%, 100% 56.6%, 0% 61%);
+    }
+    
+    @include responsive(mob_pot){
+        margin-top: -40.6rem;
+        padding: 40rem 18rem 170rem 18rem;
+        clip-path: polygon(0% 10.3%, 100% 6%, 100% 56.6%, 0% 61%);
+    }
+    
+    @include responsive(mob_min){
+        margin-top: -48.6rem;
+        padding: 45rem 18rem 201rem 18rem;
+        clip-path: polygon(0% 9.6%, 100% 6%, 100% 58%, 0% 61.7%);
+    }
+
+    @media (min-width: 441px) {
+        background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url("../Images/cathy-pham-3jAN9InapQI-medium.jpg");
+    }
+    
+    @media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+        background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url("../Images/cathy-pham-3jAN9InapQI-large.jpg");
+    }
+
+    @media (min-resolution: 192dpi) and (min-width: 1920px) {
+        background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url("../Images/cathy-pham-3jAN9InapQI-extra-large.jpg");
+    }
+}
+
+.packages {
+    background-color: $color-6;
+    margin-top: -73rem;
+    padding: 23rem 10rem 30rem 10rem;
+    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0 100%);
+    
+    
+    @include responsive(tab_lan){
+        padding: 25rem 6rem 31rem 6rem;
+    }
+    
+    @include responsive(tab_pot){
+        margin-top: -160rem;
+        padding: 14rem 18rem 27rem 18rem;
+        clip-path: polygon(0 4.5%, 100% 0%, 100% 90%, 0 94.5%);
+    }
+    
+    @include responsive(mob_lan){
+        margin-top: -168.5rem;
+        padding: 18rem 18rem 27rem 18rem;
+        clip-path: polygon(0 7%, 100% 0%, 100% 90%, 0 97.5%);
+    }
+    
+    @include responsive(mob_pot){
+        margin-top: -173rem;
+        padding: 23rem 18rem 29rem 18rem;
+        clip-path: polygon(0 7.1%, 100% 0%, 100% 90%, 0 97.5%);
+    }
+    
+    @include responsive(mob_min){
+        margin-top: -206rem;
+        padding: 21rem 18rem 28rem 18rem;
+        clip-path: polygon(0 7.5%, 100% 0%, 100% 90%, 0 97.8%);
+    }
+}
+
+.testimonials {
+    position: relative;
+    margin-top: -25rem;
+    padding: 23rem 10rem 20rem 10rem;
+    
+    
+    @include responsive(tab_lan){
+        padding: 23rem 6rem 20rem 6rem;
+    }
+    
+    @include responsive(tab_pot){
+        padding: 28rem 6rem 30rem 6rem;
+        margin-top: -37rem;
+    }
+    
+    @include responsive(mob_lan){
+        padding: 33rem 6rem 34rem 6rem;
+    }
+    
+    @include responsive(mob_pot){
+        padding: 33rem 6rem 34rem 6rem;
+    }
+    
+    @include responsive(mob_min){
+        padding: 34rem 6rem 42rem 6rem;
+    }
+}
+
+.tools {
+    background-color: $color-3;
+    padding: 18rem 10rem 80rem 10rem;
+    background-image: linear-gradient(to right bottom, rgba($color-8, .5), rgba($color-7, .5)), url("../Images/brooke-lark-jUPOXXRNdcA-small.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 190%;
+    margin-top: -24.6rem;
+    clip-path: polygon(0% 15%, 100% 0%, 100% 55%, 0% 70%);
+    
+    
+    @include responsive(tab_lan){
+        padding: 23rem 6rem 85rem 6rem;
+        background-size: 240%;
+        margin-top: -26.6rem;
+    }
+    
+    @include responsive(tab_pot){
+        margin-top: -25.6rem;
+        background-size: 435%;
+        padding: 16rem 12rem 87rem 12rem;
+        clip-path: polygon(0% 4.7%, 100% 0%, 100% 64%, 0% 68.8%);
+    }
+    
+    @include responsive(mob_lan){
+        margin-top: -33.6rem;
+        background-size: 485%;
+        padding: 20rem 12rem 87rem 12rem;
+        clip-path: polygon(0% 7.7%, 100% 0%, 100% 64%, 0% 72%);
+    }
+    
+    @include responsive(mob_pot){
+        margin-top: -33.6rem;
+        padding: 21rem 12rem 96rem 12rem;
+        clip-path: polygon(0% 7.7%, 100% 0%, 100% 64%, 0% 72%);
+    }
+    
+    @include responsive(mob_min){
+        margin-top: -42.6rem;
+        background-size: 500%;
+        padding: 21rem 12rem 102rem 12rem;
+        clip-path: polygon(0% 7.7%, 100% 0%, 100% 64%, 0% 71.9%);
+    }
+
+
+    @media (min-width: 441px) {
+        background-image: linear-gradient(to right bottom, rgba($color-8, .5), rgba($color-7, .5)), url("../Images/brooke-lark-jUPOXXRNdcA-medium.jpg");
+    }
+    
+    @media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+        background-image: linear-gradient(to right bottom, rgba($color-8, .5), rgba($color-7, .5)), url("../Images/brooke-lark-jUPOXXRNdcA-large.jpg");
+    }
+
+    @media (min-resolution: 192dpi) and (min-width: 1920px) {
+        background-image: linear-gradient(to right bottom, rgba($color-8, .5), rgba($color-7, .5)), url("../Images/brooke-lark-jUPOXXRNdcA-extra-large.jpg");
+    }
+}
+
+.join {
+    margin-top: -74rem;
+    padding: 27rem 10rem 27rem 10rem;
+    background-image: linear-gradient(to right bottom, $color-1, $color-2);
+    clip-path: polygon(0 23%, 100% 0%, 100% 76%, 0 100%);
+
+    
+    &__box {
+        position: relative;
+        padding: 25rem 0;
+        background-image: linear-gradient(105deg, rgba($color-3, .8)60%, rgba($color-3, .8)60%, transparent 50%), url("../Images/people-2604149-large.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0 .4rem .8rem rgba($color-4, .3);
+        
+        
+        @include responsive(tab_pot){
+            position: relative;
+            padding: 25rem 0;
+            background-image: linear-gradient(rgba($color-3, .8),  rgba($color-3, .8)), url("../Images/people-2604149-large.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: 0 .4rem .8rem rgba($color-4, .3);
+        }
+
+        @include responsive(mob_min){
+            padding-bottom: 30rem;
+        }
+
+    }
+
+}
+
+.footer {
+    background-color: $color-5;
+    padding: 42rem 10rem 5rem 10rem;
+    margin-top: -25rem;
+    z-index: -1;
+    
+    &__copyright {
+        color: $color-3;
+        font-size: $font-size-extra-small;
+        
+    }
+    
+    
+    @include responsive(tab_lan){
+        padding: 42rem 10rem 5rem 10rem;
+    }
+    
+    @include responsive(tab_pot){
+        margin-top: -37rem;
+        padding: 37rem 10rem 5rem 10rem;
+    }
+    
+    @include responsive(mob_lan){
+        padding: 25rem 10rem 5rem 10rem;
+    }
+    
+    @include responsive(mob_pot){
+        padding: 24rem 10rem 5rem 10rem;
+    }
+    
+    @include responsive(mob_min){
+        padding: 27rem 10rem 5rem 10rem;
+    }
+
+}
+
+
+

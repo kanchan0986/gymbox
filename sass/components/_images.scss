@@ -1,0 +1,163 @@
+.galary {
+    position: relative;
+
+    &__image {
+        width: 50%;
+        box-shadow: 0 1rem 2rem rgba($color-4, .5);
+        position: absolute;
+        border-radius: .5rem;
+        transition: all .2s;
+        
+        
+        @include responsive(tab_pot){
+            float: left;
+            position: relative;
+            width: 33.3333334%;
+            box-shadow: 0 .5rem 1rem rgba($color-4, .5);
+        }
+
+        &--image1 {
+            transform: scaleX(-1);
+            left: 0rem;
+            top: -1rem;
+            
+            &:hover {
+                transform: scaleX(-1.2) scaleY(1.2);
+                @extend %hover-image;
+            }
+            
+            
+            @include responsive(tab_pot){
+                left: 0rem;
+                top: 2rem;
+            }
+            
+        }
+        
+        &--image2 {
+            right: 0rem;
+            top: 5rem;
+            
+            &:hover{
+                transform: scaleX(1.2) scaleY(1.2);
+                @extend %hover-image;
+                
+            }
+            
+            
+            @include responsive(tab_pot){
+                right: 0rem;
+                top: 0;
+                transform: scale(1.1);
+                z-index: 1;
+            }
+        }
+        
+        &--image3 {
+            left: 25%;
+            top: 12.5rem;
+            
+            &:hover{
+                transform: scaleX(1.2) scaleY(1.2);
+                @extend %hover-image;
+                
+            }
+            
+            
+            @include responsive(tab_lan){
+                left: 25%;
+                top: 14rem;
+            }
+
+            @include responsive(tab_pot){
+                left: 0;
+                top: 2rem;
+            }
+
+            @include responsive(big_scr){
+                left: 25%;
+                top: 17rem;
+            }
+        }
+    }
+
+    
+}
+
+
+.modal__images {
+            
+    &--image-1 {
+        background-image: url(../Images/inspired-horizons-digital-marketing-kufLAiPoIlI-small.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 50%;
+
+
+
+        @media (min-width: 441px) {
+            background-image: url(../Images/inspired-horizons-digital-marketing-kufLAiPoIlI-medium.jpg);
+        }
+
+        @media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+            background-image: url(../Images/inspired-horizons-digital-marketing-kufLAiPoIlI-large.jpg);
+        }
+
+        @media (min-resolution: 192dpi) and (min-width: 1920px) {
+            background-image: url(../Images/inspired-horizons-digital-marketing-kufLAiPoIlI-extra-large.jpg);
+        }
+    }
+
+    &--image-2 {
+        background-image: url(../Images/samuel-girven-RrCvrrYtlqQ-small.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;               
+        width: 50%;
+
+
+
+        @media (min-width: 441px) {
+            background-image: url(../Images/samuel-girven-RrCvrrYtlqQ-medium.jpg);
+        }
+
+        @media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+            background-image: url(../Images/samuel-girven-RrCvrrYtlqQ-large.jpg);
+        }
+
+        @media (min-resolution: 192dpi) and (min-width: 1920px) {
+            background-image: url(../Images/samuel-girven-RrCvrrYtlqQ-extra-large.jpg);
+        }
+    }
+
+    &--image-3 {
+        background-image: url(../Images/logan-weaver-tBmmA3pTciA-small.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;               
+        width: 50%;
+
+
+
+        @media (min-width: 441px) {
+            background-image: url(../Images/logan-weaver-tBmmA3pTciA-medium.jpg);
+        }
+
+        @media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
+            background-image: url(../Images/logan-weaver-tBmmA3pTciA-large.jpg);
+        }
+
+        @media (min-resolution: 192dpi) and (min-width: 1920px) {
+            background-image: url(../Images/logan-weaver-tBmmA3pTciA-extra-large.jpg);
+        }
+    }
+
+    &--image-4 {
+        background-image: url('../Images/Zumba+April+2018+\(5+of+79\).jpg');
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;               
+        width: 50%;
+    }
+}
