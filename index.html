@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <title>GYMBOX</title>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav">
+            <input type="checkbox" class="nav__checkbox" id="checkbox">
+            <label for="checkbox" class="nav__button">
+                <span class="nav__icon">&nbsp;</span>
+            </label>
+            <div class="nav__background">&nbsp;</div>
+            <div class="nav__navbar">
+                <ul class="nav__list">
+                    <a href="#home" class="nav__items"><li class="nav__item">Home</li></a>
+                    <a href="#about" class="nav__items"><li class="nav__item">About Us</li></a>
+                    <a href="#features" class="nav__items"><li class="nav__item">Features</li></a>
+                    <a href="#packages" class="nav__items"><li class="nav__item">Packages</li></a>
+                    <a href="#tools" class="nav__items"><li class="nav__item">Tools</li></a>
+                    <a href="#testimonials" class="nav__items"><li class="nav__item">Testimonials</li></a>
+                    <a href="#join" class="nav__items"><li class="nav__item">Join Us</li></a>
+                    <a href="#footer" class="nav__items"><li class="nav__item">Site Map</li></a>
+                </ul>
+            </div>            
+            <div class="anchors">
+                <a href="#home" class="anchors__to-top"></a>
+                <a href="#footer" class="anchors__to-bottom"></a>
+            </div>
+        </div>
+    </nav>
+    <header class="header" id="home">
+        <div class="header__logo--box">
+            <img src="./Images/Logo.png" alt="logo" class="header__logo">
+        </div>
+        <div class="header__text--box">
+            <h1 class="headline">
+                <span class="headline--head1">Gym Box</span>
+                <span class="headline--head2">Ultimate Gym Experience</span>
+            </h1>
+            <a href="#features" class="button--txt" type="button">Explore</a>
+        </div>
+    </header>   
+    <main class="main">
+        <section class="about" id="about">
+            <div class="about__header--box util-ta-center util-mb-8">
+                <h2 class="headline__about" id="about">About Us</h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="about__box">
+                        <h3 class="headline__about--head1 util-mb-1">Lorem ipsum dolor</h3>
+                        <p class="headline__about--head1--sub1">Sit amet consectetur adipisicing elit. Obcaecati maxime totam at ipsam eos quae, optio, quam laudantium deleniti aliquid pariatur adipisci qui laborum assumenda quasi rem voluptatem eum animi.</p>
+                        
+                        <h3 class="headline__about--head1 util-mb-1">Lorem ipsum dolor</h3>
+                        <p class="headline__about--head1--sub1">Sit amet consectetur adipisicing elit. Obcaecati maxime totam at ipsam eos quae, optio, quam laudantium deleniti aliquid pariatur adipisci qui laborum assumenda quasi rem voluptatem eum animi.</p>
+                        
+                        <a href="#features" class="button--txt--learn1">Learn More..</a>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="galary about__box">
+                        <img srcset="./Images/sven-mieke-EuwD039Svug-small.jpg 640w, 
+                                    ./Images/sven-mieke-EuwD039Svug-medium.jpg 1920w, 
+                                    ./Images/sven-mieke-EuwD039Svug-large.jpg 2400w,
+                                    ./Images/sven-mieke-EuwD039Svug-extra-large.jpg 2400w"
+                            sizes="(max-width: 320px) 19vw,
+                                    (max-width: 440px) 20vw,
+                                    (max-width: 640px) 20vw,
+                                    (max-width: 960px) 19vw,
+                                    (max-width: 1280px) 19vw,
+                                    (min-width: 1920px) 17vw,
+                                    17vw"
+                        src="./Images/sven-mieke-EuwD039Svug-large.jpg" 
+                        alt="image1" 
+                        class="galary__image galary__image--image1">
+
+                        <img srcset="./Images/anastase-maragos-7P5AOnw6cWQ-small.jpg 640w,
+                                    ./Images/anastase-maragos-7P5AOnw6cWQ-medium.jpg 1920w,
+                                    ./Images/anastase-maragos-7P5AOnw6cWQ-large.jpg 2400w,
+                                    ./Images/anastase-maragos-7P5AOnw6cWQ-extra-large.jpg 4432w"
+                            sizes="(max-width: 320px) 21vw,
+                                    (max-width: 440px) 22vw,
+                                    (max-width: 640px) 22vw,
+                                    (max-width: 960px) 21vw,
+                                    (max-width: 1280px) 19vw,
+                                    (min-width: 1920px) 17vw,
+                                    17vw"
+                            src="./Images/anastase-maragos-7P5AOnw6cWQ-large.jpg" 
+                            alt="img2" 
+                            class="galary__image galary__image--image2">
+
+                        <img srcset="./Images/humphrey-muleba-LOA2mTj1vhc-small.jpg 640w,
+                                    ./Images/humphrey-muleba-LOA2mTj1vhc-medium.jpg 1920w,
+                                    ./Images/humphrey-muleba-LOA2mTj1vhc-large.jpg 2400w,
+                                    ./Images/humphrey-muleba-LOA2mTj1vhc-extra-large.jpg 5040w"
+                             sizes="(max-width: 320px) 19vw,
+                                    (max-width: 440px) 20vw,
+                                    (max-width: 640px) 20vw,
+                                    (max-width: 960px) 19vw,
+                                    (max-width: 1280px) 19vw,
+                                    (min-width: 1920px) 17vw,
+                                    17vw"
+                            src="./Images/humphrey-muleba-LOA2mTj1vhc-large.jpg" 
+                            alt="img3" 
+                            class="galary__image galary__image--image3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="util-ta-center util-mb-8">
+                <h2 class="headline__feature" id="features">What we do</h2>
+            </div>            
+            <div class="row">
+                <div class="col-1-of-4 util">
+                    <div class="features__headline util-ta-center">
+                        <i class="fa fa-check-circle"></i>
+                        <h3 class="features__headline__head1">Yoga Sessions</h3>
+                        <p class="features__headline__head1--sub1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. adipisci qui laborum assumenda quasi rem voluptatem Similique, cumipsum dolor sit amet consectetur adipisicing</p>
+                        <a href="#modal-1" class="button--txt--learn2">Learn More..</a>
+                    </div>
+                </div>          
+                <div class="col-1-of-4">
+                    <div class="features__headline util-ta-center">
+                        <i class="fa fa-check-circle"></i>
+                        <h3 class="features__headline__head1">Cardio Training</h3>
+                        <p class="features__headline__head1--sub1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. adipisci qui laborum assumenda quasi rem voluptatem Similique, cumipsum dolor sit amet consectetur adipisicing</p>
+                        <a href="#modal-2" class="button--txt--learn2">Learn More..</a>
+                    </div>
+                </div>          
+                <div class="col-1-of-4">
+                    <div class="features__headline util-ta-center">
+                        <i class="fa fa-check-circle"></i>
+                        <h3 class="features__headline__head1">Weight Training</h3>
+                        <p class="features__headline__head1--sub1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. adipisci qui laborum assumenda quasi rem voluptatem Similique, cumipsum dolor sit amet consectetur adipisicing</p>
+                        <a href="#modal-3" class="button--txt--learn2">Learn More..</a>
+                    </div>
+                </div>          
+                <div class="col-1-of-4">
+                    <div class="features__headline util-ta-center">
+                        <i class="fa fa-check-circle"></i>
+                        <h3 class="features__headline__head1">Zumba Dancing</h3>
+                        <p class="features__headline__head1--sub1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. adipisci qui laborum assumenda quasi rem voluptatem Similique, cumipsum dolor sit amet consectetur adipisicing</p>
+                        <a href="#modal-4" class="button--txt--learn2">Learn More..</a>
+                    </div>
+                </div>          
+            </div>            
+        </section>
+        <section class="packages">
+            <div class="util-ta-center util-mb-6">
+                <h2 class="headline__packages" id="packages">Find your best package</h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="packages__details util-ta-center">
+                        <div class="packages__details__sides packages__details__sides--front">
+                            <div class="packages__details__images packages__details__images--image1">
+                                &nbsp;
+                            </div>
+                            <h3 class="packages__details__headline">Gold</h3>
+                            <ul class="packages__details__list">
+                                <li class="packages__details__list--listitems packages__details__list--listitems--subhead packages__details__list--listitems1--item1 " >Monthly</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems1--item2"><i class="fa fa-check"></i>Cardio</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems1--item3"><i class="fa fa-check"></i>Weight Training</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems1--item4"><i class="fa fa-check"></i>Air Conditioned</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems1--item5"><i class="fa fa-check"></i>Parking Space</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems1--item6"><i class="fa fa-check"></i>Workout Routine</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems1--item7"><i class="fa fa-check"></i>Diet Chart</li>
+                            </ul>
+                        </div>
+                        <div class="packages__details__sides packages__details__sides--back packages__details__sides--back-1">
+                            <h3 class="packages__details__price packages__details__price--first">$75</h3>
+                            <a href="#modal-5" class="button--txt--cards" type="button">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="packages__details util-ta-center">
+                       <div class="packages__details__sides packages__details__sides--front">
+                            <div class="packages__details__images packages__details__images--image2">
+                            &nbsp;
+                            </div>
+                            <h3 class="packages__details__headline">Platinum</h3>
+                            <ul class="packages__details__list">
+                                <li class="packages__details__list--listitems packages__details__list--listitems--subhead packages__details__list--listitems2--item1">Quaterly</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item2"><i class="fa fa-check"></i>Yoga</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item3"><i class="fa fa-check"></i>Cardio</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item4"><i class="fa fa-check"></i>Weight Training</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item5"><i class="fa fa-check"></i>Locker Facility</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item6"><i class="fa fa-check"></i>Air Conditioned</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item7"><i class="fa fa-check"></i>Parking Space</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item8"><i class="fa fa-check"></i>Workout Routine</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item9"><i class="fa fa-check"></i>Diet Chart</li>
+                            </ul>
+                       </div>
+                       <div class="packages__details__sides packages__details__sides--back packages__details__sides--back-2">
+                            <h3 class="packages__details__price packages__details__price--second">$225</h3>
+                            <a href="#modal-5" class="button--txt--cards" type="button">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="packages__details util-ta-center">
+                       <div class="packages__details__sides packages__details__sides--front">
+                            <div class="packages__details__images packages__details__images--image3">
+                                &nbsp;
+                            </div>
+                            <h3 class="packages__details__headline">Diamond</h3>
+                            <ul class="packages__details__list">
+                                <li class="packages__details__list--listitems packages__details__list--listitems--subhead packages__details__list--listitems2--item1">Annually</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item2"><i class="fa fa-check"></i>Yoga</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item3"><i class="fa fa-check"></i>Cardio</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item4"><i class="fa fa-check"></i>Zumba</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item5"><i class="fa fa-check"></i>Weight Training</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item6"><i class="fa fa-check"></i>Locker Facility</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item7"><i class="fa fa-check"></i>Air Conditioned</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item8"><i class="fa fa-check"></i>Parking Space</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item9"><i class="fa fa-check"></i>Workout Routine</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item10"><i class="fa fa-check"></i>Diet Chart</li>
+                                <li class="packages__details__list--listitems packages__details__list--listitems2--item11"><i class="fa fa-check"></i>Personal Trainer</li>
+                            </ul>
+                       </div>
+                       <div class="packages__details__sides packages__details__sides--back packages__details__sides--back-3">
+                            <h3 class="packages__details__price packages__details__price--third">$900</h3>
+                            <a href="#modal-5" class="button--txt--cards" type="button">Join</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="testimonials-video">
+                <video class="testimonials-video__content" autoplay muted loop>
+                    <source src="./Images/coverr-girl-trains-in-the-gym-1565532876111.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="util-ta-center util-mb-6">
+                <h2 class="headline__testimonials" id="testimonials">What our clients say</h2>
+            </div>
+            <div class="row">
+                <div class="testimonials-box">
+                    <figure class="testimonials-box__circle">
+                        <img src="./Images/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="first-img" class="testimonials-box__images testimonials-box__images--image1">
+                        <figcaption class="testimonials-box__caption util-ta-center">Annie Gracie</figcaption>
+                    </figure>
+                    <h3 class="testimonials-box__head testimonials-box__head">Annie Gracie</h3>
+                    <p class="testimonials-box__head testimonials-box__head--body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi natus enim, sequi illo porro dolorum iusto laborum molestias vitae. Reprehenderit aliqu assumenda cumque facere elit. Animi natus, vitae. Reprehenderit aliquid voluptatibusrepellendus.
+                    </p>
+                </div>
+                <div class="testimonials-box">
+                    <figure class="testimonials-box__circle">
+                        <img src="./Images/zheka-boychenko-vPkTWyTgk8E-unsplash.jpg" alt="first-img" class="testimonials-box__images testimonials-box__images--image2">
+                        <figcaption class="testimonials-box__caption util-ta-center">Mark Williams</figcaption>
+                    </figure>
+                    <h3 class="testimonials-box__head testimonials-box__head">Mark Williams</h3>
+                    <p class="testimonials-box__head testimonials-box__head--body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi natus enim, sequi illo porro dolorum iusto laborum molestias vitae. Reprehenderit aliqu assumenda cumque facere elit. Animi natus, vitae. Reprehenderit aliquid voluptatibusrepellendus.
+                    </p>
+                </div>
+            </div>
+            <div class="util-ta-center at">
+                <a href="javascript:void()" class="button--txt--view">View More..</a>
+            </div>
+        </section>
+        <section class="tools">
+            <div class="util-ta-center util-mb-6">
+                <h2 class="headline__tools" id="tools">Healthy Weight Tools</h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="calculator" id="calculator-bmi">
+                        <div class="calculator__sides calculator__sides--front" id="bmi-calc-front">
+                            <form action="#">
+                                <h3 class="calculator__head">BMI & BMR Calculator</h3>
+                                <div class="calculator__input">
+                                    <input type="number" id="age__bmi" class="calculator__input--input" placeholder="Enter Your Age">
+                                    <label for="age__bmi" class="calculator__input--label" id="age__label__bmi">Age</label>
+                                </div>
+                                <div class="calculator__input">
+                                    <button type="button" class="calculator__toggle" id="toggle__height__bmi">Feets</button>
+                                    <input type="number" id="height__bmi" class="calculator__input--input calculator__input--toggle" placeholder="Enter Your Height In Centimeters">
+                                    <label for="height__bmi" class="calculator__input--label" id="height__label__bmi">Height In Centimeters</label>
+                                </div>
+                                <div class="calculator__input">
+                                    <button type="button" class="calculator__toggle" id="toggle__weight__bmi">Pounds</button>
+                                    <input type="number" id="weight__bmi" class="calculator__input--input calculator__input--toggle" placeholder="Enter Your Weight In Kilograms">
+                                    <label for="weight__bmi" class="calculator__input--label" id="weight__label__bmi">Weight In Kilograms</label>
+                                </div>
+                                <div class="button--radio__radio">
+                                    <input type="radio" id="male__bmi" class="button--radio__radio--input" name="gender__bmi">
+                                    <span class="button--radio__radio--input-custom"></span>
+                                    <label for="male__bmi" class="button--radio__radio--label">Male</label>
+                                    <input type="radio" id="female__bmi" class="button--radio__radio--input" name="gender__bmi">
+                                    <span class="button--radio__radio--input-custom"></span>
+                                    <label for="female__bmi" class="button--radio__radio--label">Female</label>
+                                </div>
+                                <div class="calculator__button calculator__button--bmi util-ta-center">
+                                    <span class="calculator__alert calculator__alert--bmi" id="calculator__alert--bmi">Please complete the above fields.</span>
+                                    <button type="button" class="button--txt--submit" id="submit_bmi">Submit</button>
+                                    <button type="reset" class="button--txt--clear button--txt--clear" id="clear_bmi">Clear</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="calculator__sides calculator__sides--back" id="bmi-calc-back">
+                            <span class="calculator__result__title-bmi">BMI</span>
+                            <span class="calculator__result" id="bmi-result">75</span>
+                            <span class="calculator__caption" id="bmi-result-caption">Please complete</span>
+                            <span class="calculator__sug" id="bmi-result-sug">Please complete</span>
+                            <span class="calculator__result__title-bmr">BMR</span>
+                            <span class="calculator__result--bmr" id="bmr-result">75<span class="calculator__result--unit">Calories/Day</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="calculator" id="calculator-calorie">
+                        <div class="calculator__sides calculator__sides--front" id="calorie-calc-front">
+                            <form action="#">
+                                <h3 class="calculator__head">Calorie Calculator</h3>
+                                <div class="calculator__input">
+                                    <input type="number" id="age__calorie" class="calculator__input--input" placeholder="Enter Your Age">
+                                    <label for="age__calorie" class="calculator__input--label" id="age__label__calorie">Enter Your Age</label>
+                                </div>
+                                <div class="calculator__input">
+                                    <button type="button" class="calculator__toggle" id="toggle__height__calorie">Feets</button>
+                                    <input type="number" id="height__calorie" class="calculator__input--input calculator__input--toggle" placeholder="Enter Your Height In Centimeters">
+                                    <label for="height__calorie" class="calculator__input--label" id="height__label__calorie">Enter Your Height In Centimeters</label>
+                                </div>
+                                <div class="calculator__input">
+                                    <button type="button" class="calculator__toggle" id="toggle__weight__calorie">Pounds</button>
+                                    <input type="number" id="weight__calorie" class="calculator__input--input calculator__input--toggle" placeholder="Enter Your Weight In Kilograms">
+                                    <label for="weight__calorie" class="calculator__input--label" id="weight__label__calorie">Enter Your Weight In Kilograms</label>
+                                </div>
+                                <div class="button--radio__radio">
+                                    <input type="radio" id="male__calorie" class="button--radio__radio--input" name="gender__calorie">
+                                    <span class="button--radio__radio--input-custom"></span>
+                                    <label for="male__calorie" class="button--radio__radio--label">Male</label>
+                                    <input type="radio" id="female__calorie" class="button--radio__radio--input" name="gender__calorie">
+                                    <span class="button--radio__radio--input-custom"></span>
+                                    <label for="female__calorie" class="button--radio__radio--label">Female</label>
+                                </div>
+                                <div class="calculator__input">
+                                    <label for="activity__calorie" class="calculator__input--label calculator__input--label--sub">Activity Level</label>
+                                    <select name="activity" id="activity__calorie" class="calculator__input--input">
+                                        <option value="">Please select from below</option>
+                                        <option value="sedentary">Sedentary: little or no exercise</option>
+                                        <option value="light">Light exercise: 1-3 times/week</option>
+                                        <option value="moderate">Moderate exercise: 4-5 times/week</option>
+                                        <option value="active">Active: daily exercise or intense exercise 3-4 times/week</option>
+                                        <option value="very-active">Very Active: intense exercise 6-7 times/week</option>
+                                        <option value="extra-active">Extra Active: very intense exercise daily or physical job</option>
+                                    </select>
+                                </div>
+                                <div class="calculator__button calculator__button--calorie  util-ta-center">
+                                    <span class="calculator__alert" id="calculator__alert--calorie">Please complete the above fields.</span>
+                                    <button type="button" class="button--txt--submit calculator__button--calorie--submit" id="submit_calorie">Submit</button>
+                                    <button type="reset" class="button--txt--clear" id="clear_calorie">Clear</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="calculator__sides calculator__sides--back" id="calorie-calc-back">
+                                <table class="calorie-table">
+                                    <thead>
+                                        <th colspan="4" class="calorie-table__head calorie-table__row_sub-head">Calorie Chart</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="calorie-table__row">
+                                            <th class="calorie-table__sub-head">Maintain Same Weight</th>
+                                            <td colspan="2" class="calorie-table__val" id="calorie-result">1200</td>
+                                            <td class="calorie-table__val">Cal/Day</td>
+                                        </tr>
+                                        <tr class="calorie-table__row_sub-head">
+                                            <th class="calorie-table__sub-head_heading">Weight Loss</th>
+                                            <td class="calorie-table__val">Cal/Day</td>
+                                            <th class="calorie-table__sub-head_heading">Weight Gain</th>
+                                            <td class="calorie-table__val">Cal/Day</td>
+                                        </tr>
+                                        <tr class="calorie-table__row">
+                                            <th class="calorie-table__sub-head">Mild Weight Loss
+                                                <span class="calorie-table__sub-body">0.25 kg/week</span>
+                                            </th>
+                                            <td class="calorie-table__val" id="mld_Loss">1300</td>
+                                            <th class="calorie-table__sub-head">Mild Weight Gain
+                                                <span class="calorie-table__sub-body">0.25 kg/week</span>
+                                            </th>
+                                            <td class="calorie-table__val" id="mld_Gain">1600</td>
+                                        </tr>
+                                        <tr class="calorie-table__row">
+                                            <th class="calorie-table__sub-head">Moderate Weight Loss
+                                                <span class="calorie-table__sub-body">0.5 kg/week</span>
+                                            </th>
+                                            <td class="calorie-table__val" id="mod_Loss">1400</td>
+                                            <th class="calorie-table__sub-head">Moderate Weight Gain
+                                                <span class="calorie-table__sub-body">0.5 kg/week</span>
+                                            </th>
+                                            <td class="calorie-table__val" id="mod_Gain">1700</td>
+                                        </tr>
+                                        <tr class="calorie-table__row">
+                                            <th class="calorie-table__sub-head">Extreme Weight Loss
+                                                <span class="calorie-table__sub-body">1 kg/week</span>
+                                            </th>
+                                            <td class="calorie-table__val" id="ext_Loss">1500</td>
+                                            <th class="calorie-table__sub-head">Extreme Weight Gain
+                                                <span class="calorie-table__sub-body">1 kg/week</span>
+                                            </th>
+                                            <td class="calorie-table__val" id="ext_Gain">1800</td>
+                                        </tr>
+                                    </tbody>
+                                    
+                                </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="joining form-1 form--toggle" id="join">
+            <form action="#"  id="join-form1-join">
+                <div class="joining__join" id="join-form-1">
+                    <div class="row">
+                        <div class="join__box">
+                            <div class="join-form">
+                                <h2 class="headline__testimonials">Join Us Now!</h2>
+                                <div class="join-form__input util-mb-1">
+                                    <input type="text" class="join-form__input--name" id="name-join" placeholder="Full Name">
+                                    <label for="name-join" class="join-form__input--label" id="join-name-label">Full Name</label>
+                                </div>
+                                <div class="join-form__input util-mb-1">
+                                    <input type="text" class="join-form__input--email" id="email-join" placeholder="Email address">
+                                    <label for="email-join" class="join-form__input--label" id="join-email-label">Email address</label>
+                                </div>
+                                <div class="join-form__input util-mb-1">
+                                    <input type="text" class="join-form__input--mobile" id="mobile-join" placeholder="Mobile number">
+                                    <label for="mobile-join" class="join-form__input--label" id="join-mobile-label">Mobile number</label>
+                                </div>
+                                <div class="button--radio__radio util-mb-res">
+                                    <input type="radio" class="button--radio__radio--input" id="man-join" value="male" name="gender-join-form1">
+                                    <span class="button--radio__radio--input-custom">&nbsp;</span>
+                                    <label for="man-join" class="button--radio__radio--label">Male</label>
+                                    <input type="radio" class="button--radio__radio--input" id="woman-join" value="female" name="gender-join-form1">
+                                    <span class="button--radio__radio--input-custom">&nbsp;</span>
+                                    <label for="woman-join" class="button--radio__radio--label">Female</label>
+                                </div>
+                                <div class="buttons util-mt-5 util-mb-res">
+                                    <span class="alert" id="alert-join-form1">Please complete the previous form!</span>
+                                    <button type="button" class="button--txt--join-next" id="button-next-join">Next</button>
+                                    <a class="button--txt--join-back button--txt--join-back--1" id="button-back1-join">Clear</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="joining__join" id="join-form-2">
+                    <div class="row">
+                        <div class="join__box">
+                            <a class="modal__close" id="form2-close-join">&times;</a>
+                            <div class="join-form" id="join-form2-join">
+                                <a class="modal__close modal__close-responsive" id="form2-close-join-resp">&times;</a>
+                                <h2 class="headline__testimonials">Join Us Now!</h2>
+                                <div class="join-form__input util-mb-1">
+                                    <input type="number" class="join-form__input--age join-form__input--input-age" id="age-join-form" placeholder="Enter your Age">
+                                    <label for="age-join-form" class="join-form__input--label" id="join-age-label">Enter your Age <span class="condition">(16 - 60)</span></label>
+                                </div>
+                                <div class="button--radio__radio join-form--radio1">
+                                    <span class="join-form__input--span">Free Trial Session</span>
+                                    <input type="radio" class="button--radio__radio--input" id="yes-join" name="trial-session-join-form2">
+                                    <span class="button--radio__radio--input-custom">&nbsp;</span>
+                                    <label for="yes-join" class="button--radio__radio--label">Yes</label>
+                                    <input type="radio" class="button--radio__radio--input" id="no-join" name="trial-session-join-form2">
+                                    <span class="button--radio__radio--input-custom">&nbsp;</span>
+                                    <label for="no-join" class="button--radio__radio--label">No</label>
+                                </div>
+                                <div class="join-form__input util-mb-2 util-mt-res">
+                                    <label for="join-join-date" class="join-form__input--label join-form__input--joining-date--label">Tentative Joining Date</label>
+                                    <input type="date" class="join-form__input--name join-form__input--joining-date" id="join-join-date">
+                                </div>
+                                <div class="join-form__input util-mb-2">
+                                    <label for="shift-timing-join" class="join-form__input--label join-form__input--joining-date--label">Shift Timing</label>
+                                    <select name="shift-timing-join-form2" id="shift-timing-join" class="join-form__input--name  join-form__input--shift-timing">
+                                        <option value="">Please select from below</option>
+                                        <option value="gold">Morning: 5 am - 10 am</option>
+                                        <option value="platinum">Day: 11 am - 4 pm</option>
+                                        <option value="diamond">Evening: 5 pm - 10 pm</option>
+                                    </select>
+                                </div>
+                                <div class="join-form__input util-mb-2">
+                                    <label for="package-name-join" class="join-form__input--label join-form__input--joining-date--label">Select Package</label>
+                                    <select name="package-name-join-form2" id="package-name-join" class="join-form__input--name join-form__input--select-package">
+                                        <option value="">Please select from below</option>
+                                        <option value="gold">Gold: $75 per month</option>
+                                        <option value="platinum">Platinum: $225 per quater</option>
+                                        <option value="diamond">Diamond: $900 per annum</option>
+                                    </select>
+                                </div>
+                                <div class="button--radio__radio util-mb-res">
+                                    <input type="radio" class="button--radio__radio--input" id="pay-now-join" name="pay-join-form2" value="pay now">
+                                    <span class="button--radio__radio--input-custom">&nbsp;</span>
+                                    <label for="pay-now-join" class="button--radio__radio--label">Pay Now</label>
+                                    <input type="radio" class="button--radio__radio--input" id="pay-later-join" name="pay-join-form2" value="pay later">
+                                    <span class="button--radio__radio--input-custom">&nbsp;</span>
+                                    <label for="pay-later-join" class="button--radio__radio--label">Pay Later</label>
+                                </div>
+                                <div class="buttons util-mt-5">
+                                    <span class="alert" id="alert-join-form2">Please complete the previous form!</span>
+                                    <button type="submit" class="button--txt--join-next" id="button-pay-join">Pay</button>
+                                    <button href="javascript:void()" type="button" class="button--txt--join-back" id="button-back2-join">Back</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </form>
+        </section>
+
+
+
+            
+    </main>
+    <footer class="footer" id="footer">
+        <span class="line">&nbsp;</span>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="section-list util-mt-15">
+                        <div class="section-list__first-div">
+                            <h3><a href="#home" class="section-list__first section-list__first--home">Home</a></h3>
+                            <h3><a href="#about" class="section-list__first section-list__first--about">About Us</a></h3>
+                            <h3><a href="#features" class="section-list__first section-list__first--feature">Features</a></h3>
+                            <h3><a href="#packages" class="section-list__first section-list__first--package">Packages</a></h3>
+                        </div>
+                        
+                        <div class="section-list__second-div">
+                            <h3><a href="#tools" class="section-list__second section-list__second--tool">Tools</a></h3>
+                            <h3><a href="#testimonials" class="section-list__second section-list__second--testimonial">Testimonials</a></h3>
+                            <h3><a href="#join" class="section-list__second section-list__second--join">Join Us</a></h3>
+                            <h3><a href="#footer" class="section-list__second section-list__second--footer">Site Map</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="information util-ta-center">
+                        <div class="information__logo-box">
+                            <a href="#home"><img src="./Images/Logo.png" alt="logo" class="information__logo-box--logo"></a>
+                        </div>
+                        <div class="information__address">
+                            <h2 class="information__address--cname">Gymbox pvt. ltd.</h2>
+                            <p class="information__address--caddress">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis ea adipisci! Nobis</p>
+                            <div class="information__address__numbers">
+                                <div class="information__address__numbers__first">
+                                    <span class="information__address__numbers__first--n1"><span class="information__address__numbers__first--n2">Telephone:</span> 0326-2230772</span>
+                                    <span class="information__address__numbers__first--n1"><span class="information__address__numbers__first--n2">Mobile:</span> +91 8569745698</span>
+                                </div>
+                                <div class="information__address__numbers__second">
+                                    <span class="information__address__numbers__second--n1"><span class="information__address__numbers__second--n2">E-Mail:</span> xyz@email.com</span>
+                                    <span class="information__address__numbers__second--n1"><span class="information__address__numbers__second--n2">Website:</span> boxgym.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="information__social">
+                            <a href="javascript:void()" class="information__social__images"><img src="./Images/Facebook.png" alt="facbook" class="information__social__images--icons"></a>
+                            <a href="javascript:void()" class="information__social__images"><img src="./Images/twitter.png" alt="twitter" class="information__social__images--icons"></a>
+                            <a href="javascript:void()" class="information__social__images"><img src="./Images/Instagram.png" alt="instagram" class="information__social__images--icons"></a>
+                            <a href="javascript:void()" class="information__social__images"><img src="./Images/Watsapp.png" alt="watsapp" class="information__social__images--icons"></a>
+                            <a href="javascript:void()" class="information__social__images"><img src="./Images/Pintrest.png" alt="pinterest" class="information__social__images--icons"></a>
+                            <a href="javascript:void()" class="information__social__images"><img src="./Images/You-tube.png" alt="youtube" class="information__social__images--icons"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="util-ta-center">
+            <span class="footer__copyright" id="footer">&copy; Gymbox pvt. ltd.</span>
+        </div>
+    </footer>
+    <div class="modals">
+        <div class="modal" id="modal-1">
+            <div class="modal__box">
+                <a href="#features" class="modal__close modal__close-responsive">&times;</a>
+                <div class="modal__images--image-1"></div>
+                <div class="modal__contents">
+                    <a href="#features" class="modal__close">&times;</a>
+                    <div class="modal__header--box util-ta-center util-mb-8">
+                        <h2 class="headline__modal">Yoga Sessions</h2>
+                    </div>
+                    <p class="modal__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugiat minima iste expedita consequatur illo soluta, ducimus nulla enim, qui id repellendus repellat reiciendis ut porro magnam quaerat tempora veritatis molestias voluptatum eum impedit nisi. Architecto, in ea officia ipsa reprehenderit earum numquam dolorum quam laudantium laboriosam animi explicabo dolorem assumenda dolore magnam voluptas quo harum aliquid accusamus cum. Et, vel praesentium soluta qui ad eligendi maxime est odio pariatur sed saepe omnis quibusdam laboriosam veritatis recusandae, similique cumque dignissimos voluptas ab numquam eaque ullam rem. Et facere, id similique distinctio reiciendis eius saepe sapiente obcaecati eaque ducimus, esse alias!</p>
+                    <div class="util-ta-center">
+                        <a href="#features" class="button--txt--modal">Other Features</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal-2">
+            <div class="modal__box">
+                <a href="#features" class="modal__close modal__close-responsive">&times;</a>
+                <div alt="Cardio" class="modal__images--image-2"></div>
+                <div class="modal__contents">
+                    <a href="#features" class="modal__close">&times;</a>
+                    <div class="modal__header--box util-ta-center util-mb-8">
+                        <h2 class="headline__modal">Cardio Training</h2>
+                    </div>
+                    <p class="modal__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugiat minima iste expedita consequatur illo soluta, ducimus nulla enim, qui id repellendus repellat reiciendis ut porro magnam quaerat tempora veritatis molestias voluptatum eum impedit nisi. Architecto, in ea officia ipsa reprehenderit earum numquam dolorum quam laudantium laboriosam animi explicabo dolorem assumenda dolore magnam voluptas quo harum aliquid accusamus cum. Et, vel praesentium soluta qui ad eligendi maxime est odio pariatur sed saepe omnis quibusdam laboriosam veritatis recusandae, similique cumque dignissimos</p>
+                    <div class="util-ta-center">
+                        <a href="#features" class="button--txt--modal">Other Features</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal-3">
+            <div class="modal__box">
+                <a href="#features" class="modal__close modal__close-responsive">&times;</a>
+                <div alt="Weight" class="modal__images--image-3"></div>
+                <div class="modal__contents">
+                    <a href="#features" class="modal__close">&times;</a>
+                    <div class="modal__header--box util-ta-center util-mb-8">
+                        <h2 class="headline__modal">Weight Training</h2>
+                    </div>
+                    <p class="modal__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugiat minima iste expedita consequatur illo soluta, ducimus nulla enim, qui id repellendus repellat reiciendis ut porro magnam quaerat tempora veritatis molestias voluptatum eum impedit nisi. Architecto, in ea officia ipsa reprehenderit earum numquam dolorum quam laudantium laboriosam animi explicabo dolorem assumenda dolore magnam voluptas quo harum aliquid accusamus cum. Et, vel praesentium soluta qui ad eligendi maxime est odio pariatur sed saepe omnis quibusdam laboriosam veritatis recusandae, similique cumque dignissimos voluptas ab numquam eaque ullam rem. Et facere, id similique distinctio reiciendis eius saepe sapiente obcaecati eaque ducimus, esse alias!</p>
+                    <div class="util-ta-center">
+                        <a href="#features" class="button--txt--modal">Other Features</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal-4">
+            <div class="modal__box">
+                <a href="#features" class="modal__close modal__close-responsive">&times;</a>
+                <div alt="Zumba" class="modal__images--image-4"></div>
+                <div class="modal__contents">
+                    <a href="#features" class="modal__close">&times;</a>
+                    <div class="modal__header--box util-ta-center util-mb-8">
+                        <h2 class="headline__modal">Zumba dancing</h2>
+                    </div>
+                    <p class="modal__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugiat minima iste expedita consequatur illo soluta, ducimus nulla enim, qui id repellendus repellat reiciendis ut porro magnam quaerat tempora veritatis molestias voluptatum eum impedit nisi. Amagnam voluptas quo harum aliquid accusamus cum. Et, vel praesentium soluta qui ad eligendi laboriosam veritatis recusandae, similique cumque dignissimos voluptas ab numquam eaque ullam rem. Et facere, id similique distinctio reiciendis eius saepe sapiente obcaecati eaque ducimus, esse alias!</p>
+                    <div class="util-ta-center">
+                        <a href="#features" class="button--txt--modal">Other Features</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal-5">
+            <form action="#"  id="join-form1-modal">
+                <div class="modal__join" id="modal-form-1">
+                    <div class="row">
+                        <div class="join__box">
+                            <a href="#packages" class="modal__close" id="form1-close-modal">&times;</a>
+                            <div class="join-form">
+                                <a href="#packages" class="modal__close modal__close-responsive" id="form1-close-modal">&times;</a>
+                                <h2 class="headline__testimonials">Join Us Now!</h2>
+                                <div class="join-form__input util-mb-1">
+                                    <input type="text" class="join-form__input--name" id="name" placeholder="Full Name">
+                                    <label for="name" class="join-form__input--label" id="modal-name-label">Full Name</label>
+                                </div>
+                                <div class="join-form__input util-mb-1">
+                                    <input type="text" class="join-form__input--email" id="email" placeholder="Email address">
+                                    <label for="email" class="join-form__input--label" id="modal-email-label">Email address</label>
+                                </div>
+                                <div class="join-form__input util-mb-1">
+                                    <input type="text" class="join-form__input--mobile" id="mobile" placeholder="Mobile number">
+                                    <label for="mobile" class="join-form__input--label" id="modal-mobile-label">Mobile number</label>
+                                </div>
+                                <div class="button--radio__radio util-mb-res">
+                                    <input type="radio" class="button--radio__radio--input" id="man-modal" value="male" name="gender-modal-form1">
+                                    <span class="button--radio__radio--input-custom">&nbsp;</span>
+                                    <label for="man-modal" class="button--radio__radio--label">Male</label>
+                                    <input type="radio" class="button--radio__radio--input" id="woman-modal" value="female" name="gender-modal-form1">
+                                    <span class="button--radio__radio--input-custom">&nbsp;</span>
+                                    <label for="woman-modal" class="button--radio__radio--label">Female</label>
+                                </div>
+                                <div class="buttons util-mt-5 util-mb-res">
+                                    <span class="alert" id="alert-modal-form1">Please complete the previous form!</span>
+                                    <button type="button" class="button--txt--join-next" id="button-next-modal">Next</button>
+                                    <a href="#packages" class="button--txt--join-back button--txt--join-back--1" id="button-back1-modal">Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__join" id="modal-form-2">
+                    <div class="row">
+                        <div class="join__box">
+                            <a href="#packages" class="modal__close" id="form2-close-modal">&times;</a>
+                            <div class="join-form" id="join-form2-modal">
+                                <a href="#packages" class="modal__close modal__close-responsive" id="form2-close-modal">&times;</a>
+                                <h2 class="headline__testimonials">Join Us Now!</h2>
+                                <div class="join-form__input util-mb-1">
+                                    <input type="number" class="join-form__input--age join-form__input--input-age" id="age-modal-form" placeholder="Enter your Age">
+                                    <label for="age-modal-form" class="join-form__input--label" id="modal-age-label">Enter your Age <span class="condition">(16 - 60)</span></label>
+                                </div>
+                                <div class="button--radio__radio join-form--radio1">
+                                    <span class="join-form__input--span">Free Trial Session</span>
+                                    <input type="radio" class="button--radio__radio--input" id="yes-modal" name="trial-session-modal-form2">
+                                    <span class="button--radio__radio--input-custom">&nbsp;</span>
+                                    <label for="yes-modal" class="button--radio__radio--label">Yes</label>
+                                    <input type="radio" class="button--radio__radio--input" id="no-modal" name="trial-session-modal-form2">
+                                    <span class="button--radio__radio--input-custom">&nbsp;</span>
+                                    <label for="no-modal" class="button--radio__radio--label">No</label>
+                                </div>
+                                <div class="join-form__input util-mb-2 util-mt-res">
+                                    <label for="join-modal-date" class="join-form__input--label join-form__input--joining-date--label">Tentative Joining Date</label>
+                                    <input type="date" class="join-form__input--name join-form__input--joining-date" id="join-modal-date">
+                                </div>
+                                <div class="join-form__input util-mb-2">
+                                    <label for="shift-timing-modal" class="join-form__input--label join-form__input--joining-date--label">Shift Timing</label>
+                                    <select name="shift-timing-modal-form2" id="shift-timing-modal" class="join-form__input--name  join-form__input--shift-timing">
+                                        <option value="">Please select from below</option>
+                                        <option value="gold">Morning: 5 am - 10 am</option>
+                                        <option value="platinum">Day: 11 am - 4 pm</option>
+                                        <option value="diamond">Evening: 5 pm - 10 pm</option>
+                                    </select>
+                                </div>
+                                <div class="join-form__input util-mb-2">
+                                    <label for="package-name-modal" class="join-form__input--label join-form__input--joining-date--label">Select Package</label>
+                                    <select name="package-name-modal-form2" id="package-name-modal" class="join-form__input--name join-form__input--select-package">
+                                        <option value="">Please select from below</option>
+                                        <option value="gold">Gold: $75 per month</option>
+                                        <option value="platinum">Platinum: $225 per quater</option>
+                                        <option value="diamond">Diamond: $900 per annum</option>
+                                    </select>
+                                </div>
+                                <div class="button--radio__radio util-mb-res">
+                                    <input type="radio" class="button--radio__radio--input" id="pay-now-modal" name="pay-modal-form2" value="pay now">
+                                    <span class="button--radio__radio--input-custom">&nbsp;</span>
+                                    <label for="pay-now-modal" class="button--radio__radio--label">Pay Now</label>
+                                    <input type="radio" class="button--radio__radio--input" id="pay-later-modal" name="pay-modal-form2" value="pay later">
+                                    <span class="button--radio__radio--input-custom">&nbsp;</span>
+                                    <label for="pay-later-modal" class="button--radio__radio--label">Pay Later</label>
+                                </div>
+                                <div class="buttons util-mt-5">
+                                    <span class="alert" id="alert-modal-form2">Please complete the previous form!</span>
+                                    <button type="submit" class="button--txt--join-next" id="button-pay-modal">Pay</button>
+                                    <button href="javascript:void()" type="button" class="button--txt--join-back" id="button-back2-modal">Back</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </form>
+        </div>
+    </div>
+
+    
+    <!-- <section class="grid-test">
+        <div class="row">
+            <div class="col-1-of-2">col-1-of-2</div>
+            <div class="col-1-of-2">col-1-of-2</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-3">col-1-of-3</div>
+            <div class="col-1-of-3">col-1-of-3</div>
+            <div class="col-1-of-3">col-1-of-3</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-3">col-1-of-3</div>
+            <div class="col-2-of-3">col-2-of-3</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-2-of-4">col-2-of-4</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-3-of-4">col-3-of-4</div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-6">col-1-of-6</div>
+            <div class="col-1-of-6">col-1-of-6</div>
+            <div class="col-1-of-6">col-1-of-6</div>
+            <div class="col-1-of-6">col-1-of-6</div>
+            <div class="col-1-of-6">col-1-of-6</div>
+            <div class="col-1-of-6">col-1-of-6</div>
+        </div>
+    </section> -->
+    <script src="./JavaScript/calc.js"></script>
+    <script src="./JavaScript/form.js"></script>
+    <script src="./JavaScript/nav.js"></script>
+    <script src="./JavaScript/app.js"></script>
+</body>
+</html>
+
+
