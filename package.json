@@ -4,7 +4,8 @@
   "description": "GYMBOX Website created using HTML, CSS and JavaScript.",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass src/sass/style.scss src/css/style.css -w"
+    "compile:sass": "node-sass src/sass/style.scss src/css/style.css -w",
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,13 @@
   "bugs": {
     "url": "https://github.com/kanchan0986/gymbox/issues"
   },
-  "homepage": "https://github.com/kanchan0986/gymbox#readme",
+  "homepage": "https://kanchan0986.github.io/gymbox",
   "devDependencies": {
     "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
+
+
