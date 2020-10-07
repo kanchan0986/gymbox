@@ -1052,68 +1052,68 @@
 }
 
 .packages__details__images--image1 {
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-small.jpg");
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-small.jpg");
 }
 
 @media (min-width: 441px) {
   .packages__details__images--image1 {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-medium.jpg");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-medium.jpg");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .packages__details__images--image1 {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-large.jpg");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-large.jpg");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
   .packages__details__images--image1 {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-extra-large.jpg");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-extra-large.jpg");
   }
 }
 
 .packages__details__images--image2 {
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-small.jpg");
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-small.jpg");
 }
 
 @media (min-width: 441px) {
   .packages__details__images--image2 {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-medium.jpg");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-medium.jpg");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .packages__details__images--image2 {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-large.jpg");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-large.jpg");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
   .packages__details__images--image2 {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-extra-large.jpg");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-extra-large.jpg");
   }
 }
 
 .packages__details__images--image3 {
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-small.jpg");
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-small.jpg");
 }
 
 @media (min-width: 441px) {
   .packages__details__images--image3 {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-medium.jpg");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-medium.jpg");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .packages__details__images--image3 {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-large.jpg");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-large.jpg");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
   .packages__details__images--image3 {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-extra-large.jpg");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-extra-large.jpg");
   }
 }
 
@@ -1944,7 +1944,7 @@
   position: relative;
   z-index: 3;
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-small.jpg);
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-small.jpg);
   background-size: cover;
   background-position: center;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
@@ -1981,19 +1981,19 @@
 
 @media (min-width: 441px) {
   .header {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-medium.jpg);
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-medium.jpg);
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .header {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-large.jpg);
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-large.jpg);
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
   .header {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-extra-large.jpg);
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-extra-large.jpg);
   }
 }
 
@@ -2351,7 +2351,7 @@
 }
 
 .modal__images--image-1 {
-  background-image: url(../../src/Images/inspired-horizons-digital-marketing-kufLAiPoIlI-small.jpg);
+  background-image: url(Images/inspired-horizons-digital-marketing-kufLAiPoIlI-small.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2360,24 +2360,24 @@
 
 @media (min-width: 441px) {
   .modal__images--image-1 {
-    background-image: url(../../src/Images/inspired-horizons-digital-marketing-kufLAiPoIlI-medium.jpg);
+    background-image: url(Images/inspired-horizons-digital-marketing-kufLAiPoIlI-medium.jpg);
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .modal__images--image-1 {
-    background-image: url(../../src/Images/inspired-horizons-digital-marketing-kufLAiPoIlI-large.jpg);
+    background-image: url(Images/inspired-horizons-digital-marketing-kufLAiPoIlI-large.jpg);
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
   .modal__images--image-1 {
-    background-image: url(../../src/Images/inspired-horizons-digital-marketing-kufLAiPoIlI-extra-large.jpg);
+    background-image: url(Images/inspired-horizons-digital-marketing-kufLAiPoIlI-extra-large.jpg);
   }
 }
 
 .modal__images--image-2 {
-  background-image: url(../../src/Images/samuel-girven-RrCvrrYtlqQ-small.jpg);
+  background-image: url(Images/samuel-girven-RrCvrrYtlqQ-small.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2386,24 +2386,24 @@
 
 @media (min-width: 441px) {
   .modal__images--image-2 {
-    background-image: url(../../src/Images/samuel-girven-RrCvrrYtlqQ-medium.jpg);
+    background-image: url(Images/samuel-girven-RrCvrrYtlqQ-medium.jpg);
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .modal__images--image-2 {
-    background-image: url(../../src/Images/samuel-girven-RrCvrrYtlqQ-large.jpg);
+    background-image: url(Images/samuel-girven-RrCvrrYtlqQ-large.jpg);
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
   .modal__images--image-2 {
-    background-image: url(../../src/Images/samuel-girven-RrCvrrYtlqQ-extra-large.jpg);
+    background-image: url(Images/samuel-girven-RrCvrrYtlqQ-extra-large.jpg);
   }
 }
 
 .modal__images--image-3 {
-  background-image: url(../../src/Images/logan-weaver-tBmmA3pTciA-small.jpg);
+  background-image: url(Images/logan-weaver-tBmmA3pTciA-small.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2412,24 +2412,24 @@
 
 @media (min-width: 441px) {
   .modal__images--image-3 {
-    background-image: url(../../src/Images/logan-weaver-tBmmA3pTciA-medium.jpg);
+    background-image: url(Images/logan-weaver-tBmmA3pTciA-medium.jpg);
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .modal__images--image-3 {
-    background-image: url(../../src/Images/logan-weaver-tBmmA3pTciA-large.jpg);
+    background-image: url(Images/logan-weaver-tBmmA3pTciA-large.jpg);
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
   .modal__images--image-3 {
-    background-image: url(../../src/Images/logan-weaver-tBmmA3pTciA-extra-large.jpg);
+    background-image: url(Images/logan-weaver-tBmmA3pTciA-extra-large.jpg);
   }
 }
 
 .modal__images--image-4 {
-  background-image: url("../../src/Images/Zumba+April+2018+(5+of+79).jpg");
+  background-image: url("Images/Zumba+April+2018+(5+of+79).jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -3019,7 +3019,7 @@
 .features {
   background-color: #ffffff;
   padding: 20rem 10rem 80rem 10rem;
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-small.jpg");
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-small.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3075,19 +3075,19 @@
 
 @media (min-width: 441px) {
   .features {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-medium.jpg");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-medium.jpg");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .features {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-large.jpg");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-large.jpg");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
   .features {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-extra-large.jpg");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-extra-large.jpg");
   }
 }
 
@@ -3181,7 +3181,7 @@
 .tools {
   background-color: #ffffff;
   padding: 18rem 10rem 80rem 10rem;
-  background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-small.jpg");
+  background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-small.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 190%;
@@ -3239,19 +3239,19 @@
 
 @media (min-width: 441px) {
   .tools {
-    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-medium.jpg");
+    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-medium.jpg");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .tools {
-    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-large.jpg");
+    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-large.jpg");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
   .tools {
-    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-extra-large.jpg");
+    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-extra-large.jpg");
   }
 }
 
@@ -3266,7 +3266,7 @@
 .join__box {
   position: relative;
   padding: 25rem 0;
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 0.8) 60%, transparent 50%), url("../../src/Images/people-2604149-large.jpg");
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 0.8) 60%, transparent 50%), url("Images/people-2604149-large.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.3);
@@ -3276,7 +3276,7 @@
   .join__box {
     position: relative;
     padding: 25rem 0;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../src/Images/people-2604149-large.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("Images/people-2604149-large.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
