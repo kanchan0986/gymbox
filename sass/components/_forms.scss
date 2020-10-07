@@ -25,6 +25,7 @@
             font-size: inherit;
             outline: none;
             border: none;
+            background-color: $color-3;
             font-family: inherit;
             border-radius: .2rem;
             border-bottom: .15rem solid transparent;
@@ -117,6 +118,7 @@
         &--joining-date {
             padding: .8rem .5rem .65rem .5rem;
             width: 46%;
+            background-color: $color-3;
             display: inline-block;
 
 
@@ -145,6 +147,7 @@
         &--shift-timing {
             padding: .8rem .5rem .65rem .5rem;
             width: 62%;
+            background-color: $color-3;
             display: inline-block;
             
             
@@ -168,6 +171,7 @@
         &--select-package {
             padding: .8rem .5rem .65rem .5rem;
             width: 56.5%;
+            background-color: $color-3;
             display: inline-block;
             
             
