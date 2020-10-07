@@ -649,6 +649,7 @@
 .calculator__input--input {
   padding: .8rem 1.5rem .65rem .5rem;
   width: 100%;
+  background-color: #ffffff;
   outline: none;
   font-size: inherit;
   font-family: inherit;
@@ -1067,12 +1068,6 @@
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
-  .packages__details__images--image1 {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-extra-large.jpg");
-  }
-}
-
 .packages__details__images--image2 {
   background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-small.jpg");
 }
@@ -1089,12 +1084,6 @@
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
-  .packages__details__images--image2 {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-extra-large.jpg");
-  }
-}
-
 .packages__details__images--image3 {
   background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-small.jpg");
 }
@@ -1108,12 +1097,6 @@
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .packages__details__images--image3 {
     background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-large.jpg");
-  }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
-  .packages__details__images--image3 {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-extra-large.jpg");
   }
 }
 
@@ -1517,6 +1500,7 @@
   font-size: inherit;
   outline: none;
   border: none;
+  background-color: #ffffff;
   font-family: inherit;
   border-radius: .2rem;
   border-bottom: .15rem solid transparent;
@@ -1616,6 +1600,7 @@
 .join-form__input--joining-date {
   padding: .8rem .5rem .65rem .5rem;
   width: 46%;
+  background-color: #ffffff;
   display: inline-block;
 }
 
@@ -1650,6 +1635,7 @@
 .join-form__input--shift-timing {
   padding: .8rem .5rem .65rem .5rem;
   width: 62%;
+  background-color: #ffffff;
   display: inline-block;
 }
 
@@ -1680,6 +1666,7 @@
 .join-form__input--select-package {
   padding: .8rem .5rem .65rem .5rem;
   width: 56.5%;
+  background-color: #ffffff;
   display: inline-block;
 }
 
@@ -1988,12 +1975,6 @@
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .header {
     background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-large.jpg);
-  }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
-  .header {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-extra-large.jpg);
   }
 }
 
@@ -2370,12 +2351,6 @@
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
-  .modal__images--image-1 {
-    background-image: url(Images/inspired-horizons-digital-marketing-kufLAiPoIlI-extra-large.jpg);
-  }
-}
-
 .modal__images--image-2 {
   background-image: url(Images/samuel-girven-RrCvrrYtlqQ-small.jpg);
   background-size: cover;
@@ -2396,12 +2371,6 @@
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
-  .modal__images--image-2 {
-    background-image: url(Images/samuel-girven-RrCvrrYtlqQ-extra-large.jpg);
-  }
-}
-
 .modal__images--image-3 {
   background-image: url(Images/logan-weaver-tBmmA3pTciA-small.jpg);
   background-size: cover;
@@ -2419,12 +2388,6 @@
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .modal__images--image-3 {
     background-image: url(Images/logan-weaver-tBmmA3pTciA-large.jpg);
-  }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
-  .modal__images--image-3 {
-    background-image: url(Images/logan-weaver-tBmmA3pTciA-extra-large.jpg);
   }
 }
 
@@ -3085,12 +3048,6 @@
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
-  .features {
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-extra-large.jpg");
-  }
-}
-
 .packages {
   background-color: #ebebe8;
   margin-top: -73rem;
@@ -3246,12 +3203,6 @@
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .tools {
     background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-large.jpg");
-  }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), (min-resolution: 192dpi) and (min-width: 1920px) {
-  .tools {
-    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-extra-large.jpg");
   }
 }
 
