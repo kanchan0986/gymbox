@@ -1266,77 +1266,77 @@
 }
 
 .packages__details__images--image1 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-small.webp");
-  background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-small.webp");
-  background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-small.webp");
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-small.webp");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("Images/anastase-maragos-7kEpUPB8vNk-small.webp");
+  background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-small.webp");
+  background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-small.webp");
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-small.webp");
 }
 
 @media (min-width: 441px) {
   .packages__details__images--image1 {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-medium.webp");
-    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-medium.webp");
-    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-medium.webp");
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-medium.webp");
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("Images/anastase-maragos-7kEpUPB8vNk-medium.webp");
+    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-medium.webp");
+    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-medium.webp");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-medium.webp");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (-o-min-device-pixel-ratio: 2/1) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .packages__details__images--image1 {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-large.webp");
-    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-large.webp");
-    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-large.webp");
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/anastase-maragos-7kEpUPB8vNk-large.webp");
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("Images/anastase-maragos-7kEpUPB8vNk-large.webp");
+    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-large.webp");
+    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-large.webp");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/anastase-maragos-7kEpUPB8vNk-large.webp");
   }
 }
 
 .packages__details__images--image2 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-small.webp");
-  background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-small.webp");
-  background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-small.webp");
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-small.webp");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("Images/bruce-mars-gJtDg6WfMlQ-small.webp");
+  background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-small.webp");
+  background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-small.webp");
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-small.webp");
 }
 
 @media (min-width: 441px) {
   .packages__details__images--image2 {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-medium.webp");
-    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-medium.webp");
-    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-medium.webp");
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-medium.webp");
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("Images/bruce-mars-gJtDg6WfMlQ-medium.webp");
+    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-medium.webp");
+    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-medium.webp");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-medium.webp");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (-o-min-device-pixel-ratio: 2/1) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .packages__details__images--image2 {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-large.webp");
-    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-large.webp");
-    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-large.webp");
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/bruce-mars-gJtDg6WfMlQ-large.webp");
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("Images/bruce-mars-gJtDg6WfMlQ-large.webp");
+    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-large.webp");
+    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-large.webp");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/bruce-mars-gJtDg6WfMlQ-large.webp");
   }
 }
 
 .packages__details__images--image3 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-small.webp");
-  background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-small.webp");
-  background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-small.webp");
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-small.webp");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("Images/jelmer-assink-gzeTjGu3b_k-small.webp");
+  background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-small.webp");
+  background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-small.webp");
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-small.webp");
 }
 
 @media (min-width: 441px) {
   .packages__details__images--image3 {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-medium.webp");
-    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-medium.webp");
-    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-medium.webp");
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-medium.webp");
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("Images/jelmer-assink-gzeTjGu3b_k-medium.webp");
+    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-medium.webp");
+    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-medium.webp");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-medium.webp");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (-o-min-device-pixel-ratio: 2/1) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .packages__details__images--image3 {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-large.webp");
-    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-large.webp");
-    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-large.webp");
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/jelmer-assink-gzeTjGu3b_k-large.webp");
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("Images/jelmer-assink-gzeTjGu3b_k-large.webp");
+    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-large.webp");
+    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-large.webp");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/jelmer-assink-gzeTjGu3b_k-large.webp");
   }
 }
 
@@ -2255,10 +2255,10 @@
   position: relative;
   z-index: 3;
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url(../../src/Images/man-1282232-small.webp);
-  background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-small.webp);
-  background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-small.webp);
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-small.webp);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url(Images/man-1282232-small.webp);
+  background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-small.webp);
+  background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-small.webp);
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-small.webp);
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center;
@@ -2296,19 +2296,19 @@
 
 @media (min-width: 441px) {
   .header {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url(../../src/Images/man-1282232-medium.webp);
-    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-medium.webp);
-    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-medium.webp);
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-medium.webp);
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url(Images/man-1282232-medium.webp);
+    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-medium.webp);
+    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-medium.webp);
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-medium.webp);
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (-o-min-device-pixel-ratio: 2/1) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .header {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url(../../src/Images/man-1282232-large.webp);
-    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-large.webp);
-    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-large.webp);
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(../../src/Images/man-1282232-large.webp);
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url(Images/man-1282232-large.webp);
+    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-large.webp);
+    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-large.webp);
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url(Images/man-1282232-large.webp);
   }
 }
 
@@ -2727,7 +2727,7 @@
 }
 
 .modal__images--image-1 {
-  background-image: url(../../src/Images/inspired-horizons-digital-marketing-kufLAiPoIlI-small.webp);
+  background-image: url(Images/inspired-horizons-digital-marketing-kufLAiPoIlI-small.webp);
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center;
@@ -2737,18 +2737,18 @@
 
 @media (min-width: 441px) {
   .modal__images--image-1 {
-    background-image: url(../../src/Images/inspired-horizons-digital-marketing-kufLAiPoIlI-medium.webp);
+    background-image: url(Images/inspired-horizons-digital-marketing-kufLAiPoIlI-medium.webp);
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (-o-min-device-pixel-ratio: 2/1) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .modal__images--image-1 {
-    background-image: url(../../src/Images/inspired-horizons-digital-marketing-kufLAiPoIlI-large.webp);
+    background-image: url(Images/inspired-horizons-digital-marketing-kufLAiPoIlI-large.webp);
   }
 }
 
 .modal__images--image-2 {
-  background-image: url(../../src/Images/samuel-girven-RrCvrrYtlqQ-small.webp);
+  background-image: url(Images/samuel-girven-RrCvrrYtlqQ-small.webp);
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center;
@@ -2758,18 +2758,18 @@
 
 @media (min-width: 441px) {
   .modal__images--image-2 {
-    background-image: url(../../src/Images/samuel-girven-RrCvrrYtlqQ-medium.webp);
+    background-image: url(Images/samuel-girven-RrCvrrYtlqQ-medium.webp);
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (-o-min-device-pixel-ratio: 2/1) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .modal__images--image-2 {
-    background-image: url(../../src/Images/samuel-girven-RrCvrrYtlqQ-large.webp);
+    background-image: url(Images/samuel-girven-RrCvrrYtlqQ-large.webp);
   }
 }
 
 .modal__images--image-3 {
-  background-image: url(../../src/Images/logan-weaver-tBmmA3pTciA-small.webp);
+  background-image: url(Images/logan-weaver-tBmmA3pTciA-small.webp);
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center;
@@ -2779,18 +2779,18 @@
 
 @media (min-width: 441px) {
   .modal__images--image-3 {
-    background-image: url(../../src/Images/logan-weaver-tBmmA3pTciA-medium.webp);
+    background-image: url(Images/logan-weaver-tBmmA3pTciA-medium.webp);
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (-o-min-device-pixel-ratio: 2/1) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .modal__images--image-3 {
-    background-image: url(../../src/Images/logan-weaver-tBmmA3pTciA-large.webp);
+    background-image: url(Images/logan-weaver-tBmmA3pTciA-large.webp);
   }
 }
 
 .modal__images--image-4 {
-  background-image: url("../../src/Images/Zumba+April+2018+(5+of+79).webp");
+  background-image: url("Images/Zumba+April+2018+(5+of+79).webp");
   -webkit-background-size: cover;
           background-size: cover;
   background-position: top;
@@ -3486,10 +3486,10 @@
 .features {
   background-color: #ffffff;
   padding: 20rem 10rem 80rem 10rem;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("../../src/Images/cathy-pham-3jAN9InapQI-small.webp");
-  background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-small.webp");
-  background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-small.webp");
-  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-small.webp");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("Images/cathy-pham-3jAN9InapQI-small.webp");
+  background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-small.webp");
+  background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-small.webp");
+  background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-small.webp");
   background-position: top;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -3546,19 +3546,19 @@
 
 @media (min-width: 441px) {
   .features {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("../../src/Images/cathy-pham-3jAN9InapQI-medium.webp");
-    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-medium.webp");
-    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-medium.webp");
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-medium.webp");
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("Images/cathy-pham-3jAN9InapQI-medium.webp");
+    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-medium.webp");
+    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-medium.webp");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-medium.webp");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (-o-min-device-pixel-ratio: 2/1) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .features {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("../../src/Images/cathy-pham-3jAN9InapQI-large.webp");
-    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-large.webp");
-    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-large.webp");
-    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("../../src/Images/cathy-pham-3jAN9InapQI-large.webp");
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(251, 231, 0, 0.5)), to(rgba(251, 0, 0, 0.5))), url("Images/cathy-pham-3jAN9InapQI-large.webp");
+    background-image: -webkit-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-large.webp");
+    background-image: -o-linear-gradient(left top, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-large.webp");
+    background-image: linear-gradient(to right bottom, rgba(251, 231, 0, 0.5), rgba(251, 0, 0, 0.5)), url("Images/cathy-pham-3jAN9InapQI-large.webp");
   }
 }
 
@@ -3652,10 +3652,10 @@
 .tools {
   background-color: #ffffff;
   padding: 18rem 10rem 80rem 10rem;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 69, 0, 0.5)), to(rgba(51, 214, 51, 0.5))), url("../../src/Images/brooke-lark-jUPOXXRNdcA-small.webp");
-  background-image: -webkit-linear-gradient(left top, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-small.webp");
-  background-image: -o-linear-gradient(left top, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-small.webp");
-  background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-small.webp");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 69, 0, 0.5)), to(rgba(51, 214, 51, 0.5))), url("Images/brooke-lark-jUPOXXRNdcA-small.webp");
+  background-image: -webkit-linear-gradient(left top, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-small.webp");
+  background-image: -o-linear-gradient(left top, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-small.webp");
+  background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-small.webp");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: 190% 190%;
@@ -3718,19 +3718,19 @@
 
 @media (min-width: 441px) {
   .tools {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 69, 0, 0.5)), to(rgba(51, 214, 51, 0.5))), url("../../src/Images/brooke-lark-jUPOXXRNdcA-medium.webp");
-    background-image: -webkit-linear-gradient(left top, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-medium.webp");
-    background-image: -o-linear-gradient(left top, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-medium.webp");
-    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-medium.webp");
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 69, 0, 0.5)), to(rgba(51, 214, 51, 0.5))), url("Images/brooke-lark-jUPOXXRNdcA-medium.webp");
+    background-image: -webkit-linear-gradient(left top, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-medium.webp");
+    background-image: -o-linear-gradient(left top, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-medium.webp");
+    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-medium.webp");
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px), (-o-min-device-pixel-ratio: 2/1) and (min-width: 321px), (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
   .tools {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 69, 0, 0.5)), to(rgba(51, 214, 51, 0.5))), url("../../src/Images/brooke-lark-jUPOXXRNdcA-large.webp");
-    background-image: -webkit-linear-gradient(left top, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-large.webp");
-    background-image: -o-linear-gradient(left top, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-large.webp");
-    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("../../src/Images/brooke-lark-jUPOXXRNdcA-large.webp");
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 69, 0, 0.5)), to(rgba(51, 214, 51, 0.5))), url("Images/brooke-lark-jUPOXXRNdcA-large.webp");
+    background-image: -webkit-linear-gradient(left top, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-large.webp");
+    background-image: -o-linear-gradient(left top, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-large.webp");
+    background-image: linear-gradient(to right bottom, rgba(255, 69, 0, 0.5), rgba(51, 214, 51, 0.5)), url("Images/brooke-lark-jUPOXXRNdcA-large.webp");
   }
 }
 
@@ -3748,9 +3748,9 @@
 .join__box {
   position: relative;
   padding: 25rem 0;
-  background-image: -webkit-linear-gradient(345deg, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 0.8) 60%, transparent 50%), url("../../src/Images/people-2604149-large.webp");
-  background-image: -o-linear-gradient(345deg, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 0.8) 60%, transparent 50%), url("../../src/Images/people-2604149-large.webp");
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 0.8) 60%, transparent 50%), url("../../src/Images/people-2604149-large.webp");
+  background-image: -webkit-linear-gradient(345deg, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 0.8) 60%, transparent 50%), url("Images/people-2604149-large.webp");
+  background-image: -o-linear-gradient(345deg, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 0.8) 60%, transparent 50%), url("Images/people-2604149-large.webp");
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 0.8) 60%, transparent 50%), url("Images/people-2604149-large.webp");
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
@@ -3762,10 +3762,10 @@
   .join__box {
     position: relative;
     padding: 25rem 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url("../../src/Images/people-2604149-large.webp");
-    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../src/Images/people-2604149-large.webp");
-    background-image: -o-linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../src/Images/people-2604149-large.webp");
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../src/Images/people-2604149-large.webp");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url("Images/people-2604149-large.webp");
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("Images/people-2604149-large.webp");
+    background-image: -o-linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("Images/people-2604149-large.webp");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("Images/people-2604149-large.webp");
     -webkit-background-size: cover;
             background-size: cover;
     background-position: center;
