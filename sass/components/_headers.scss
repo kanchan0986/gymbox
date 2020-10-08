@@ -2,7 +2,7 @@
     position: relative;
     z-index: 3;
     height: 100vh;
-    background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url(../../src/Images/man-1282232-small.jpg);
+    background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url(../../src/Images/man-1282232-small.webp);
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0,100% 0,100% 80vh,0 100%);
@@ -25,11 +25,11 @@
     }
 
     @media (min-width: 441px) {
-        background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url(../../src/Images/man-1282232-medium.jpg);
+        background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url(../../src/Images/man-1282232-medium.webp);
     }
     
     @media (min-resolution: 192dpi) and (min-width: 321px), (min-width: 770px) {
-        background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url(../../src/Images/man-1282232-large.jpg);
+        background-image: linear-gradient(to right bottom, rgba($color-1, .5), rgba($color-2, .5)), url(../../src/Images/man-1282232-large.webp);
     }
 
     
